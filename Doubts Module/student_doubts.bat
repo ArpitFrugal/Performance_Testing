@@ -1,0 +1,2 @@
+cd D:\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin
+jmeter -n -t "D:\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin\Onelern\Doubts Module\OLDoubts_student.jmx" -l "D:\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin\Onelern\Doubts Module\doubt_student.jtl" -e -o "D:\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin\Onelern\Doubts Module\Doubts Students Results"
