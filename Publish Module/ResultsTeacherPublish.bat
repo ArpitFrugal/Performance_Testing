@@ -1,0 +1,2 @@
+cd F:\JMeter\apache-jmeter-5.3\bin
+jmeter -n -t "F:\Git Clone\Performance_Testing\Publish Module\TeacherPublish_8aug.jmx" -l "F:\Git Clone\Performance_Testing\Publish Module\TeacherPublish_Resultfile.jtl" -e -o "F:\Git Clone\Performance_Testing\Publish Module\NonGUI_Result_TeacherPublish"

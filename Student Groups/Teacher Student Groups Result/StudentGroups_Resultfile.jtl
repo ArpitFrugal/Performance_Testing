@@ -1,0 +1,461 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1660632544987,150,GET/URL,200,OK,Thread Group 1-5,text,true,,2774,664,5,5,https://test.onelern.school/,149,0,100
+1660632544125,1011,GET/URL,200,OK,Thread Group 1-1,text,true,,2776,664,5,5,https://test.onelern.school/,1010,0,778
+1660632544733,404,GET/URL,200,OK,Thread Group 1-4,text,true,,2774,664,5,5,https://test.onelern.school/,403,0,171
+1660632544492,655,GET/URL,200,OK,Thread Group 1-3,text,true,,2774,664,5,5,https://test.onelern.school/,644,0,412
+1660632544241,927,GET/URL,200,OK,Thread Group 1-2,text,true,,2774,664,5,5,https://test.onelern.school/,911,0,688
+1660632545140,244,GET/IP,200,OK,Thread Group 1-1,text,true,,1843,557,6,6,https://qaapi.onelern.school/,244,0,178
+1660632545140,246,GET/IP,200,OK,Thread Group 1-4,text,true,,1843,557,6,6,https://qaapi.onelern.school/,246,0,179
+1660632545169,242,GET/IP,200,OK,Thread Group 1-2,text,true,,1844,557,6,6,https://qaapi.onelern.school/,242,0,167
+1660632545148,264,GET/IP,200,OK,Thread Group 1-3,text,true,,1844,557,6,6,https://qaapi.onelern.school/,263,0,188
+1660632545143,269,GET/IP,200,OK,Thread Group 1-5,text,true,,1843,557,6,6,https://qaapi.onelern.school/,268,0,193
+1660632545388,102,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-4,text,true,,1385,582,7,7,https://qaapi.onelern.school/otps/checkuser/9000000104,102,0,0
+1660632545233,274,GET/URL,200,OK,Thread Group 1-6,text,true,,2776,664,7,7,https://test.onelern.school/,263,0,57
+1660632545385,127,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-1,text,true,,3104,582,7,7,https://qaapi.onelern.school/otps/checkuser/9000000101,127,0,0
+1660632545413,149,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-3,text,true,,1381,582,7,7,https://qaapi.onelern.school/otps/checkuser/9000000103,149,0,0
+1660632545413,161,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-2,text,true,,1385,582,7,7,https://qaapi.onelern.school/otps/checkuser/9000000102,161,0,0
+1660632545413,171,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-5,text,true,,2265,582,7,7,https://qaapi.onelern.school/otps/checkuser/9000000105,171,0,0
+1660632545488,149,GET/URL,200,OK,Thread Group 1-7,text,true,,2776,664,7,7,https://test.onelern.school/,131,0,74
+1660632545733,147,GET/URL,200,OK,Thread Group 1-8,text,true,,2776,664,8,8,https://test.onelern.school/,142,0,76
+1660632545490,440,POST/otps/loginWithPassword,200,OK,Thread Group 1-4,text,true,,7850,686,8,8,https://qaapi.onelern.school/otps/loginWithPassword,440,0,0
+1660632545509,437,GET/IP,200,OK,Thread Group 1-6,text,true,,1844,557,8,8,https://qaapi.onelern.school/,437,0,172
+1660632545513,436,POST/otps/loginWithPassword,200,OK,Thread Group 1-1,text,true,,9883,686,8,8,https://qaapi.onelern.school/otps/loginWithPassword,436,0,0
+1660632545638,316,GET/IP,200,OK,Thread Group 1-7,text,true,,1844,557,8,8,https://qaapi.onelern.school/,315,0,172
+1660632545988,119,GET/URL,200,OK,Thread Group 1-9,text,true,,2776,664,9,9,https://test.onelern.school/,110,0,47
+1660632545563,668,POST/otps/loginWithPassword,200,OK,Thread Group 1-3,text,true,,7846,686,9,9,https://qaapi.onelern.school/otps/loginWithPassword,668,0,0
+1660632545575,696,POST/otps/loginWithPassword,200,OK,Thread Group 1-2,text,true,,7849,686,9,9,https://qaapi.onelern.school/otps/loginWithPassword,695,0,0
+1660632545883,543,GET/IP,200,OK,Thread Group 1-8,text,true,,1844,557,10,10,https://qaapi.onelern.school/,543,0,170
+1660632545947,484,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-6,text,true,,1385,582,10,10,https://qaapi.onelern.school/otps/checkuser/9000000106,484,0,0
+1660632545954,479,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-7,text,true,,1381,582,10,10,https://qaapi.onelern.school/otps/checkuser/9000000107,479,0,0
+1660632545952,493,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-1,text,true,,1977,861,10,10,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,493,0,0
+1660632545943,504,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-4,text,true,,1977,861,10,10,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,504,0,0
+1660632546307,141,GET/URL,200,OK,Thread Group 1-10,text,true,,2776,664,10,10,https://test.onelern.school/,124,0,61
+1660632545585,886,POST/otps/loginWithPassword,200,OK,Thread Group 1-5,text,true,,8729,686,10,10,https://qaapi.onelern.school/otps/loginWithPassword,886,0,0
+1660632546483,275,GET/URL,200,OK,Thread Group 1-11,text,true,,2776,664,12,12,https://test.onelern.school/,272,0,57
+1660632546733,115,GET/URL,200,OK,Thread Group 1-12,text,true,,2776,664,12,12,https://test.onelern.school/,103,0,41
+1660632546111,765,GET/IP,200,OK,Thread Group 1-9,text,true,,1844,557,12,12,https://qaapi.onelern.school/,765,0,175
+1660632546273,615,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-2,text,true,,1977,861,12,12,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,615,0,0
+1660632546233,701,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-3,text,true,,1977,861,12,12,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,701,0,0
+1660632546475,459,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-5,text,true,,1976,861,12,12,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,459,0,0
+1660632546452,482,GET/IP,200,OK,Thread Group 1-10,text,true,,1843,557,12,12,https://qaapi.onelern.school/,482,0,176
+1660632546427,566,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-8,text,true,,1382,582,13,13,https://qaapi.onelern.school/otps/checkuser/9000000108,566,0,0
+1660632546759,237,GET/IP,200,OK,Thread Group 1-11,text,true,,1843,557,13,13,https://qaapi.onelern.school/,237,0,177
+1660632546983,106,GET/URL,200,OK,Thread Group 1-13,text,true,,2776,664,13,13,https://test.onelern.school/,106,0,35
+1660632546877,235,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-9,text,true,,1413,582,13,13,https://qaapi.onelern.school/otps/checkuser/9000000109,235,0,0
+1660632546448,664,GET/groups,200,OK,Thread Group 1-1,text,true,,1018,899,13,13,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVjMyIsImlhdCI6MTY2MDYzMjU0NSwiZXhwIjoxNjYzMjI0NTQ1fQ.7A8fmaMlwpBCztNs5iZLGcjhfReieX-GU2uWRJbG29Y,664,0,53
+1660632546450,662,GET/groups,200,OK,Thread Group 1-4,text,true,,1016,899,13,13,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVkNiIsImlhdCI6MTY2MDYzMjU0NSwiZXhwIjoxNjYzMjI0NTQ1fQ.4jwcvXSENgkmke20irdiKfgFH5kQcy4jN8L9p4MTMDw,662,0,70
+1660632546936,271,GET/groups,200,OK,Thread Group 1-3,text,true,,1016,899,13,13,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVkNSIsImlhdCI6MTY2MDYzMjU0NiwiZXhwIjoxNjYzMjI0NTQ2fQ.qF488m-rgflO0ToluWadXx-J3K7jD-AusWD3bbYNTcE,271,0,54
+1660632546936,271,GET/groups,200,OK,Thread Group 1-5,text,true,,1016,899,13,13,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVjNCIsImlhdCI6MTY2MDYzMjU0NiwiZXhwIjoxNjYzMjI0NTQ2fQ.ORHps6wdIB4iqJCoaBzK1m9HKQ81rgqHqP9pOeXbwyQ,271,0,56
+1660632546890,317,GET/groups,200,OK,Thread Group 1-2,text,true,,1018,899,13,13,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVkNCIsImlhdCI6MTY2MDYzMjU0NiwiZXhwIjoxNjYzMjI0NTQ2fQ.MYKC63wG7jILhFx-uiGPFHUsNSlKuIDeyvvhUHBwiro,317,0,100
+1660632546432,786,POST/otps/loginWithPassword,200,OK,Thread Group 1-6,text,true,,7849,686,13,13,https://qaapi.onelern.school/otps/loginWithPassword,786,0,0
+1660632546435,788,POST/otps/loginWithPassword,200,OK,Thread Group 1-7,text,true,,7845,686,13,13,https://qaapi.onelern.school/otps/loginWithPassword,788,0,0
+1660632546850,378,GET/IP,200,OK,Thread Group 1-12,text,true,,1844,557,14,14,https://qaapi.onelern.school/,378,0,193
+1660632546935,307,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-10,text,true,,1411,582,14,14,https://qaapi.onelern.school/otps/checkuser/9000000110,306,0,0
+1660632546996,321,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-11,text,true,,2301,582,14,14,https://qaapi.onelern.school/otps/checkuser/9000000111,321,0,0
+1660632547092,245,GET/IP,200,OK,Thread Group 1-13,text,true,,1843,557,14,14,https://qaapi.onelern.school/,245,0,187
+1660632547229,230,GET/URL,200,OK,Thread Group 1-14,text,true,,2776,664,14,14,https://test.onelern.school/,230,0,31
+1660632547475,123,GET/URL,200,OK,Thread Group 1-15,text,true,,2776,664,15,15,https://test.onelern.school/,123,0,55
+1660632547230,407,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-12,text,true,,1410,582,15,15,https://qaapi.onelern.school/otps/checkuser/9000000112,407,0,0
+1660632547113,554,GET/build/bundle.js,200,OK,Thread Group 1-4,text,true,,58194,569,15,15,https://test-groups.onelern.school/build/bundle.js,554,0,0
+1660632547208,462,GET/build/bundle.js,200,OK,Thread Group 1-2,text,true,,58202,569,15,15,https://test-groups.onelern.school/build/bundle.js,462,0,0
+1660632547208,463,GET/build/bundle.js,200,OK,Thread Group 1-3,text,true,,58146,569,15,15,https://test-groups.onelern.school/build/bundle.js,463,0,0
+1660632547113,553,GET/build/bundle.js,200,OK,Thread Group 1-1,text,true,,58169,569,15,15,https://test-groups.onelern.school/build/bundle.js,553,0,0
+1660632547208,456,GET/build/bundle.js,200,OK,Thread Group 1-5,text,true,,58139,569,15,15,https://test-groups.onelern.school/build/bundle.js,455,0,0
+1660632547222,494,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-6,text,true,,1977,861,15,15,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,494,0,0
+1660632547227,495,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-7,text,true,,1977,861,15,15,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,495,0,0
+1660632547113,641,POST/otps/loginWithPassword,200,OK,Thread Group 1-9,text,true,,8338,686,16,16,https://qaapi.onelern.school/otps/loginWithPassword,640,0,0
+1660632546993,765,POST/otps/loginWithPassword,200,OK,Thread Group 1-8,text,true,,7846,686,16,16,https://qaapi.onelern.school/otps/loginWithPassword,765,0,0
+1660632547723,105,GET/groups,200,OK,Thread Group 1-7,text,true,,1016,899,16,16,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVjNiIsImlhdCI6MTY2MDYzMjU0NywiZXhwIjoxNjYzMjI0NTQ3fQ.hc4iUcbD0Ahk3rGlWnx3g6Iw2fYVHtsMlNFPWpKDqAI,105,0,45
+1660632547717,111,GET/groups,200,OK,Thread Group 1-6,text,true,,1018,899,16,16,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVjNSIsImlhdCI6MTY2MDYzMjU0NywiZXhwIjoxNjYzMjI0NTQ3fQ.TvpiLBn-tpQUMJAgKhI9acJl2OhHcmbSnrh5p7VqFNw,111,0,46
+1660632547737,101,GET/URL,200,OK,Thread Group 1-16,text,true,,2776,664,16,16,https://test.onelern.school/,100,0,36
+1660632547831,37,GET/build/bundle.js,200,OK,Thread Group 1-6,text,true,,58093,569,16,16,https://test-groups.onelern.school/build/bundle.js,36,0,0
+1660632547831,40,GET/build/bundle.js,200,OK,Thread Group 1-7,text,true,,58101,569,16,16,https://test-groups.onelern.school/build/bundle.js,40,0,0
+1660632547339,659,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-13,text,true,,1412,582,17,17,https://qaapi.onelern.school/otps/checkuser/9000000113,659,0,0
+1660632547980,378,GET/URL,200,OK,Thread Group 1-17,text,true,,2776,664,18,18,https://test.onelern.school/,357,0,61
+1660632548229,159,GET/URL,200,OK,Thread Group 1-18,text,true,,2776,664,18,18,https://test.onelern.school/,146,0,83
+1660632547463,1204,GET/IP,200,OK,Thread Group 1-14,text,true,,1845,557,19,19,https://qaapi.onelern.school/,1204,0,178
+1660632548475,274,GET/URL,200,OK,Thread Group 1-19,text,true,,2783,664,20,20,https://test.onelern.school/,264,0,54
+1660632547242,1586,POST/otps/loginWithPassword,200,OK,Thread Group 1-10,text,true,,8337,686,20,20,https://qaapi.onelern.school/otps/loginWithPassword,1586,0,0
+1660632547601,1262,GET/IP,200,OK,Thread Group 1-15,text,true,,1845,557,20,20,https://qaapi.onelern.school/,1262,0,175
+1660632547638,1224,POST/otps/loginWithPassword,200,OK,Thread Group 1-12,text,true,,8336,686,20,20,https://qaapi.onelern.school/otps/loginWithPassword,1218,0,0
+1660632547318,1561,POST/otps/loginWithPassword,200,OK,Thread Group 1-11,text,true,,9226,686,20,20,https://qaapi.onelern.school/otps/loginWithPassword,1561,0,0
+1660632547755,1134,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-9,text,true,,1977,861,20,20,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,1134,0,0
+1660632548360,529,GET/IP,200,OK,Thread Group 1-17,text,true,,1844,557,20,20,https://qaapi.onelern.school/,529,0,206
+1660632547841,1048,GET/IP,200,OK,Thread Group 1-16,text,true,,1845,557,20,20,https://qaapi.onelern.school/,1048,0,185
+1660632548390,502,GET/IP,200,OK,Thread Group 1-18,text,true,,1844,557,20,20,https://qaapi.onelern.school/,502,0,195
+1660632547759,1144,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-8,text,true,,1977,861,20,20,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,1144,0,0
+1660632547686,1243,GET/groupbynodeuser/,200,OK,Thread Group 1-4,text,true,,4782,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ed6,1243,0,0
+1660632547693,1269,GET/groupbynodeuser/,200,OK,Thread Group 1-3,text,true,,7340,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ed5,1269,0,0
+1660632548729,263,GET/URL,200,OK,Thread Group 1-20,text,true,,2783,664,20,20,https://test.onelern.school/,263,0,56
+1660632548904,88,GET/groups,200,OK,Thread Group 1-8,text,true,,1024,899,20,20,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVjNyIsImlhdCI6MTY2MDYzMjU0NywiZXhwIjoxNjYzMjI0NTQ3fQ.ICcv3kqIOVYIYn6sji3u3SyeENJ7vyqj_H0kBO18Bmk,88,0,28
+1660632548891,103,GET/groups,200,OK,Thread Group 1-9,text,true,,1026,899,20,20,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVjOCIsImlhdCI6MTY2MDYzMjU0NywiZXhwIjoxNjYzMjI0NTQ3fQ.VaX7PCensOhMlYgt-ZzplmnrNbXi5pFoG3viQgtrPWw,103,0,38
+1660632547693,1304,GET/groupbynodeuser/,200,OK,Thread Group 1-2,text,true,,5286,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ed4,1304,0,0
+1660632548992,28,GET/build/bundle.js,200,OK,Thread Group 1-8,text,true,,58124,569,20,20,https://test-groups.onelern.school/build/bundle.js,28,0,0
+1660632548995,32,GET/build/bundle.js,200,OK,Thread Group 1-9,text,true,,58116,569,20,20,https://test-groups.onelern.school/build/bundle.js,32,0,0
+1660632548668,415,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-14,text,true,,1406,582,20,20,https://qaapi.onelern.school/otps/checkuser/9000000114,415,0,0
+1660632547693,1431,GET/groupbynodeuser/,200,OK,Thread Group 1-1,text,true,,15711,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ec3,1382,0,0
+1660632547873,1273,GET/groupbynodeuser/,200,OK,Thread Group 1-7,text,true,,8519,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ec6,1273,0,0
+1660632547870,1298,GET/groupbynodeuser/,200,OK,Thread Group 1-6,text,true,,5340,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ec5,1298,0,0
+1660632547693,1522,GET/groupbynodeuser/,200,OK,Thread Group 1-5,text,true,,6657,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ec4,1522,0,0
+1660632548752,613,GET/IP,200,OK,Thread Group 1-19,text,true,,1845,557,20,20,https://qaapi.onelern.school/,612,0,177
+1660632547999,1376,POST/otps/loginWithPassword,200,OK,Thread Group 1-13,text,true,,8316,686,20,20,https://qaapi.onelern.school/otps/loginWithPassword,1376,0,0
+1660632548830,551,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-10,text,true,,1977,861,20,20,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,551,0,0
+1660632548993,416,GET/IP,200,OK,Thread Group 1-20,text,true,,1844,557,20,20,https://qaapi.onelern.school/,416,0,215
+1660632548890,545,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-16,text,true,,1410,582,20,20,https://qaapi.onelern.school/otps/checkuser/9000000116,545,0,0
+1660632548882,567,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-11,text,true,,1977,861,20,20,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,567,0,0
+1660632548865,586,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-12,text,true,,1977,861,20,20,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,586,0,0
+1660632548865,587,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-15,text,true,,1410,582,20,20,https://qaapi.onelern.school/otps/checkuser/9000000115,587,0,0
+1660632548893,561,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-18,text,true,,1404,582,20,20,https://qaapi.onelern.school/otps/checkuser/9000000118,561,0,0
+1660632548890,577,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-17,text,true,,1407,582,20,20,https://qaapi.onelern.school/otps/checkuser/9000000117,577,0,0
+1660632549451,182,GET/groups,200,OK,Thread Group 1-12,text,true,,1024,899,20,20,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVjYiIsImlhdCI6MTY2MDYzMjU0OCwiZXhwIjoxNjYzMjI0NTQ4fQ.bI3mS2p5bySfqi3vBkLzexP_AdA2nsKvhuiK6PZjaD0,182,0,39
+1660632549450,200,GET/groups,200,OK,Thread Group 1-11,text,true,,1024,899,20,20,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVjYSIsImlhdCI6MTY2MDYzMjU0OCwiZXhwIjoxNjYzMjI0NTQ4fQ.5oxzQrLLbcQWHrr4B6XiWQRRUxbZzck-7rsgk52g1_I,199,0,50
+1660632549383,267,GET/groups,200,OK,Thread Group 1-10,text,true,,1026,899,20,20,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVjOSIsImlhdCI6MTY2MDYzMjU0OCwiZXhwIjoxNjYzMjI0NTQ4fQ.MTfEsukMgvO9sOo2YsnmoXCbfDPI3LKAANr3UCrQrsk,266,0,46
+1660632549635,61,GET/build/bundle.js,200,OK,Thread Group 1-12,text,true,,58101,569,20,20,https://test-groups.onelern.school/build/bundle.js,61,0,0
+1660632549651,46,GET/build/bundle.js,200,OK,Thread Group 1-11,text,true,,58116,569,20,20,https://test-groups.onelern.school/build/bundle.js,46,0,0
+1660632549651,51,GET/build/bundle.js,200,OK,Thread Group 1-10,text,true,,58101,569,20,20,https://test-groups.onelern.school/build/bundle.js,50,0,0
+1660632549028,1229,GET/groupbynodeuser/,200,OK,Thread Group 1-9,text,true,,4806,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ec8,1229,0,0
+1660632548963,1324,GET/users/USER_PERM,200,OK,Thread Group 1-3,text,true,,116279,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ed5,985,0,0
+1660632548997,1321,GET/users/USER_PERM,200,OK,Thread Group 1-2,text,true,,166190,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ed4,887,0,0
+1660632548930,1492,GET/users/USER_PERM,200,OK,Thread Group 1-4,text,true,,118388,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ed6,1143,0,0
+1660632549021,1460,GET/groupbynodeuser/,200,OK,Thread Group 1-8,text,true,,3995,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ec7,1460,0,0
+1660632549366,1120,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-19,text,true,,1404,582,20,20,https://qaapi.onelern.school/otps/checkuser/9000000119,1120,0,0
+1660632549169,1374,GET/users/USER_PERM,200,OK,Thread Group 1-6,text,true,,86335,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ec5,1128,0,0
+1660632549084,1533,POST/otps/loginWithPassword,200,OK,Thread Group 1-14,text,true,,8310,686,20,20,https://qaapi.onelern.school/otps/loginWithPassword,1533,0,0
+1660632549216,1771,GET/users/USER_PERM,200,OK,Thread Group 1-5,text,true,,143413,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ec4,1367,0,0
+1660632549409,2149,GET/otps/checkuser/PHONE_NUM,200,OK,Thread Group 1-20,text,true,,1412,582,20,20,https://qaapi.onelern.school/otps/checkuser/9000000120,2149,0,0
+1660632549378,2185,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-13,text,true,,1978,861,20,20,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,2185,0,0
+1660632551565,183,GET/groups,200,OK,Thread Group 1-13,text,true,,1026,899,20,20,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVjYyIsImlhdCI6MTY2MDYzMjU0OSwiZXhwIjoxNjYzMjI0NTQ5fQ.T5lUcpdNYnd_o968Vj-oX4Sy0PWUkz1kCu0aJO2FC_g,183,0,72
+1660632551749,24,GET/build/bundle.js,200,OK,Thread Group 1-13,text,true,,58101,569,20,20,https://test-groups.onelern.school/build/bundle.js,24,0,0
+1660632549698,2961,GET/groupbynodeuser/,200,OK,Thread Group 1-12,text,true,,3995,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ecb,2961,0,0
+1660632549702,2973,GET/groupbynodeuser/,200,OK,Thread Group 1-10,text,true,,3995,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ec9,2973,0,0
+1660632549698,3034,GET/groupbynodeuser/,200,OK,Thread Group 1-11,text,true,,5753,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6eca,3034,0,0
+1660632549436,3309,POST/otps/loginWithPassword,200,OK,Thread Group 1-16,text,true,,8314,686,20,20,https://qaapi.onelern.school/otps/loginWithPassword,3309,0,0
+1660632549147,3699,GET/users/USER_PERM,200,OK,Thread Group 1-7,text,true,,80378,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ec6,3459,0,0
+1660632549452,3404,POST/otps/loginWithPassword,200,OK,Thread Group 1-15,text,true,,8314,686,20,20,https://qaapi.onelern.school/otps/loginWithPassword,3404,0,0
+1660632550319,2548,GET/node-types?Slug - centers,200,OK,Thread Group 1-2,text,true,,695,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,2548,0,0
+1660632550423,2459,GET/node-types?Slug - centers,200,OK,Thread Group 1-4,text,true,,695,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,2459,0,0
+1660632550300,2586,GET/node-types?Slug - centers,200,OK,Thread Group 1-3,text,true,,695,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,2586,0,0
+1660632549468,3421,POST/otps/loginWithPassword,200,OK,Thread Group 1-17,text,true,,8311,686,20,20,https://qaapi.onelern.school/otps/loginWithPassword,3420,0,0
+1660632550544,2403,GET/node-types?Slug - centers,200,OK,Thread Group 1-6,text,true,,695,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,2403,0,0
+1660632549454,3499,POST/otps/loginWithPassword,200,OK,Thread Group 1-18,text,true,,8308,686,20,20,https://qaapi.onelern.school/otps/loginWithPassword,3499,0,0
+1660632550619,2354,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-14,text,true,,1978,861,20,20,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,2353,0,0
+1660632550988,2070,GET/node-types?Slug - centers,200,OK,Thread Group 1-5,text,true,,695,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,2070,0,0
+1660632550486,2719,POST/otps/loginWithPassword,200,OK,Thread Group 1-19,text,true,,8307,686,20,20,https://qaapi.onelern.school/otps/loginWithPassword,2719,0,0
+1660632552975,284,GET/groups,200,OK,Thread Group 1-14,text,true,,1026,899,20,20,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVjZCIsImlhdCI6MTY2MDYzMjU1MCwiZXhwIjoxNjYzMjI0NTUwfQ.rFvbapO8h_GRsBQxjJqPNMCCa2mjSinTJJxT53NMANU,284,0,78
+1660632551776,1493,GET/groupbynodeuser/,200,OK,Thread Group 1-13,text,true,,3995,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ecc,1493,0,0
+1660632550481,2791,GET/users/USER_PERM,200,OK,Thread Group 1-8,text,true,,77286,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ec7,2522,0,0
+1660632553260,38,GET/build/bundle.js,200,OK,Thread Group 1-14,text,true,,58109,569,20,20,https://test-groups.onelern.school/build/bundle.js,38,0,0
+1660632552747,569,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-16,text,true,,1977,861,20,20,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,569,0,0
+1660632551559,1758,POST/otps/loginWithPassword,200,OK,Thread Group 1-20,text,true,,8315,686,20,20,https://qaapi.onelern.school/otps/loginWithPassword,1758,0,0
+1660632550258,3104,GET/users/USER_PERM,200,OK,Thread Group 1-9,text,true,,82621,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ec8,2789,0,0
+1660632552868,506,GET/node-types?slug-grades,200,OK,Thread Group 1-2,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,506,0,0
+1660632552857,519,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-15,text,true,,1977,861,20,20,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,519,0,0
+1660632552891,486,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-17,text,true,,1977,861,20,20,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,485,0,0
+1660632552955,485,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-18,text,true,,1977,861,20,20,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,485,0,0
+1660632552883,592,GET/node-types?slug-grades,200,OK,Thread Group 1-4,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,592,0,0
+1660632553317,176,GET/groups,200,OK,Thread Group 1-16,text,true,,1026,899,20,20,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVjZiIsImlhdCI6MTY2MDYzMjU1MiwiZXhwIjoxNjYzMjI0NTUyfQ.IQ-IC7n5Qb0J9TyiqYuOzA5K9XUoOwImsJZXsP4dzx8,176,0,99
+1660632552847,661,GET/node-types?Slug - centers,200,OK,Thread Group 1-7,text,true,,694,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,661,0,0
+1660632552887,626,GET/node-types?slug-grades,200,OK,Thread Group 1-3,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,626,0,0
+1660632552948,588,GET/node-types?slug-grades,200,OK,Thread Group 1-6,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,588,0,0
+1660632553494,44,GET/build/bundle.js,200,OK,Thread Group 1-16,text,true,,58101,569,20,20,https://test-groups.onelern.school/build/bundle.js,44,0,0
+1660632553378,162,GET/groups,200,OK,Thread Group 1-15,text,true,,1024,899,20,20,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVjZSIsImlhdCI6MTY2MDYzMjU1MiwiZXhwIjoxNjYzMjI0NTUyfQ.OYgp05LGNO3cueaXuaX4Rt2x8PQvinjCFY5GrSiVi6A,162,0,100
+1660632553378,162,GET/groups,200,OK,Thread Group 1-17,text,true,,1026,899,20,20,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVkMCIsImlhdCI6MTY2MDYzMjU1MiwiZXhwIjoxNjYzMjI0NTUyfQ.-fjYHjLnxEol6iS_5lAcJS-bq2Zl4-fUZgAWVn4rpDo,162,0,97
+1660632553059,529,GET/node-types?slug-grades,200,OK,Thread Group 1-5,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,529,0,0
+1660632553442,167,GET/groups,200,OK,Thread Group 1-18,text,true,,1026,899,20,20,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVkMSIsImlhdCI6MTY2MDYzMjU1MiwiZXhwIjoxNjYzMjI0NTUyfQ.z0gR711sDkuImvlInDrEMnz8uuYABMys_lD8mB1fCEI,167,0,98
+1660632553540,71,GET/build/bundle.js,200,OK,Thread Group 1-15,text,true,,58109,569,20,20,https://test-groups.onelern.school/build/bundle.js,71,0,0
+1660632553540,73,GET/build/bundle.js,200,OK,Thread Group 1-17,text,true,,58116,569,20,20,https://test-groups.onelern.school/build/bundle.js,72,0,0
+1660632553207,421,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-19,text,true,,1977,861,20,20,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,421,0,0
+1660632553610,34,GET/build/bundle.js,200,OK,Thread Group 1-18,text,true,,58101,569,20,20,https://test-groups.onelern.school/build/bundle.js,33,0,0
+1660632553318,328,GET/modulesByRoleandInstitution/,200,OK,Thread Group 1-20,text,true,,1977,861,20,20,https://qaapi.onelern.school/modulesByRoleandInstitution/624d5851d87e5b773b5e6cbf/60dbfd45dc085760fa1982c4,328,0,0
+1660632553375,296,GET/node-types?Slug-Sections,200,OK,Thread Group 1-2,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,296,0,0
+1660632552676,1044,GET/users/USER_PERM,200,OK,Thread Group 1-10,text,true,,75387,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ec9,784,0,0
+1660632552733,989,GET/users/USER_PERM,200,OK,Thread Group 1-11,text,true,,56942,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6eca,799,0,0
+1660632553272,452,GET/node-types?Slug - centers,200,OK,Thread Group 1-8,text,true,,694,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,451,0,0
+1660632553629,110,GET/groups,200,OK,Thread Group 1-19,text,true,,1026,899,20,20,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVkMiIsImlhdCI6MTY2MDYzMjU1MiwiZXhwIjoxNjYzMjI0NTUyfQ.TtrstvRa4uovcPn5IMFFVg504dwLNG-QjNOpQMQD7hE,110,0,51
+1660632553647,92,GET/groups,200,OK,Thread Group 1-20,text,true,,1024,899,20,20,https://test-groups.onelern.school/groups?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU4NWI4ZDg3ZTViNzczYjVlNmVkMyIsImlhdCI6MTY2MDYzMjU1MywiZXhwIjoxNjYzMjI0NTUzfQ.dCID0XyvWD5luJgKFEXNw9aTLmYDTqR89K9COboBtAo,92,0,36
+1660632553739,33,GET/build/bundle.js,200,OK,Thread Group 1-19,text,true,,58101,569,20,20,https://test-groups.onelern.school/build/bundle.js,33,0,0
+1660632552660,1126,GET/users/USER_PERM,200,OK,Thread Group 1-12,text,true,,57788,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ecb,838,0,0
+1660632553300,506,GET/groupbynodeuser/,200,OK,Thread Group 1-14,text,true,,3994,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ecd,506,0,0
+1660632553739,68,GET/build/bundle.js,200,OK,Thread Group 1-20,text,true,,58101,569,20,20,https://test-groups.onelern.school/build/bundle.js,68,0,0
+1660632553363,469,GET/node-types?Slug - centers,200,OK,Thread Group 1-9,text,true,,694,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,469,0,0
+1660632553476,371,GET/node-types?Slug-Sections,200,OK,Thread Group 1-4,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,371,0,0
+1660632553508,370,GET/node-types?slug-grades,200,OK,Thread Group 1-7,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,370,0,0
+1660632553536,342,GET/node-types?Slug-Sections,200,OK,Thread Group 1-6,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,342,0,0
+1660632553513,380,GET/node-types?Slug-Sections,200,OK,Thread Group 1-3,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,380,0,0
+1660632553589,328,GET/node-types?Slug-Sections,200,OK,Thread Group 1-5,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,328,0,0
+1660632553539,394,GET/groupbynodeuser/,200,OK,Thread Group 1-16,text,true,,3994,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ecf,394,0,0
+1660632553616,329,GET/groupbynodeuser/,200,OK,Thread Group 1-17,text,true,,3994,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ed0,329,0,0
+1660632553724,223,GET/node-types?slug-grades,200,OK,Thread Group 1-8,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,223,0,0
+1660632553270,691,GET/users/USER_PERM,200,OK,Thread Group 1-13,text,true,,60940,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ecc,480,0,0
+1660632553613,356,GET/groupbynodeuser/,200,OK,Thread Group 1-15,text,true,,4506,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ece,356,0,0
+1660632553644,334,GET/groupbynodeuser/,200,OK,Thread Group 1-18,text,true,,3994,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ed1,334,0,0
+1660632553723,256,GET/node-types?Slug - centers,200,OK,Thread Group 1-11,text,true,,694,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,256,0,0
+1660632553720,271,GET/node-types?Slug - centers,200,OK,Thread Group 1-10,text,true,,694,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,271,0,0
+1660632553786,217,GET/node-types?Slug - centers,200,OK,Thread Group 1-12,text,true,,694,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,216,0,0
+1660632553773,333,GET/groupbynodeuser/,200,OK,Thread Group 1-19,text,true,,3994,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ed2,333,0,0
+1660632553808,374,GET/groupbynodeuser/,200,OK,Thread Group 1-20,text,true,,4359,863,20,20,https://qaapi.onelern.school/groupbynodeuser/624d5851d87e5b773b5e6cbf/624e85b8d87e5b773b5e6ed3,374,0,0
+1660632553832,363,GET/node-types?slug-grades,200,OK,Thread Group 1-9,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,363,0,0
+1660632553878,389,GET/node-types?Slug-Sections,200,OK,Thread Group 1-7,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,388,0,0
+1660632553806,478,GET/users/USER_PERM,200,OK,Thread Group 1-14,text,true,,55951,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ecd,328,0,0
+1660632549125,5188,GET/users/USER_PERM,200,OK,Thread Group 1-1,text,true,,2182942,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ec3,2406,0,0
+1660632554003,406,GET/node-types?slug-grades,200,OK,Thread Group 1-12,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,406,0,0
+1660632553947,483,GET/node-types?Slug-Sections,200,OK,Thread Group 1-8,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,483,0,0
+1660632553991,489,GET/node-types?slug-grades,200,OK,Thread Group 1-10,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,489,0,0
+1660632553980,556,GET/node-types?slug-grades,200,OK,Thread Group 1-11,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,556,0,0
+1660632553933,676,GET/users/USER_PERM,200,OK,Thread Group 1-16,text,true,,56655,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ecf,468,0,0
+1660632553961,649,GET/node-types?Slug - centers,200,OK,Thread Group 1-13,text,true,,694,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,649,0,0
+1660632553946,822,GET/users/USER_PERM,200,OK,Thread Group 1-17,text,true,,58609,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ed0,573,0,0
+1660632554196,573,GET/node-types?Slug-Sections,200,OK,Thread Group 1-9,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,573,0,0
+1660632553978,799,GET/users/USER_PERM,200,OK,Thread Group 1-18,text,true,,55919,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ed1,646,0,0
+1660632554285,528,GET/node-types?Slug - centers,200,OK,Thread Group 1-14,text,true,,694,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,528,0,0
+1660632554313,501,GET/node-types?Slug - centers,200,OK,Thread Group 1-1,text,true,,694,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,500,0,0
+1660632554610,251,GET/node-types?slug-grades,200,OK,Thread Group 1-13,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,251,0,0
+1660632554481,380,GET/node-types?Slug-Sections,200,OK,Thread Group 1-10,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,380,0,0
+1660632553970,917,GET/users/USER_PERM,200,OK,Thread Group 1-15,text,true,,56779,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ece,727,0,0
+1660632554610,277,GET/node-types?Slug - centers,200,OK,Thread Group 1-16,text,true,,694,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,277,0,0
+1660632554536,355,GET/node-types?Slug-Sections,200,OK,Thread Group 1-11,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,355,0,0
+1660632554409,482,GET/node-types?Slug-Sections,200,OK,Thread Group 1-12,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,482,0,0
+1660632554107,822,GET/users/USER_PERM,200,OK,Thread Group 1-19,text,true,,55266,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ed2,636,0,0
+1660632554770,160,GET/node-types?Slug - centers,200,OK,Thread Group 1-17,text,true,,693,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,160,0,0
+1660632554778,152,GET/node-types?Slug - centers,200,OK,Thread Group 1-18,text,true,,693,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,152,0,0
+1660632554814,127,GET/node-types?slug-grades,200,OK,Thread Group 1-1,text,true,,691,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,127,0,0
+1660632554814,138,GET/node-types?slug-grades,200,OK,Thread Group 1-14,text,true,,691,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,138,0,0
+1660632554862,105,GET/node-types?Slug-Sections,200,OK,Thread Group 1-13,text,true,,694,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,105,0,0
+1660632554888,92,GET/node-types?slug-grades,200,OK,Thread Group 1-16,text,true,,691,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,92,0,0
+1660632554888,105,GET/node-types?Slug - centers,200,OK,Thread Group 1-15,text,true,,693,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,104,0,0
+1660632554183,863,GET/users/USER_PERM,200,OK,Thread Group 1-20,text,true,,58700,828,20,20,https://qaapi.onelern.school/users/624e85b8d87e5b773b5e6ed3,675,0,0
+1660632554930,211,GET/node-types?Slug - centers,200,OK,Thread Group 1-19,text,true,,694,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,210,0,0
+1660632554931,240,GET/node-types?slug-grades,200,OK,Thread Group 1-17,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,240,0,0
+1660632554931,244,GET/node-types?slug-grades,200,OK,Thread Group 1-18,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,244,0,0
+1660632554942,241,GET/node-types?Slug-Sections,200,OK,Thread Group 1-1,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,241,0,0
+1660632554953,242,GET/node-types?Slug-Sections,200,OK,Thread Group 1-14,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,242,0,0
+1660632554993,202,GET/node-types?slug-grades,200,OK,Thread Group 1-15,text,true,,692,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,202,0,0
+1660632554981,235,GET/node-types?Slug-Sections,200,OK,Thread Group 1-16,text,true,,695,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,235,0,0
+1660632555047,169,GET/node-types?Slug - centers,200,OK,Thread Group 1-20,text,true,,693,836,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Centers,169,0,0
+1660632555141,76,GET/node-types?slug-grades,200,OK,Thread Group 1-19,text,true,,691,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,76,0,0
+1660632555172,70,GET/node-types?Slug-Sections,200,OK,Thread Group 1-17,text,true,,694,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,70,0,0
+1660632555176,78,GET/node-types?Slug-Sections,200,OK,Thread Group 1-18,text,true,,694,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,78,0,0
+1660632555196,71,GET/node-types?Slug-Sections,200,OK,Thread Group 1-15,text,true,,694,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,71,0,0
+1660632555216,74,GET/node-types?slug-grades,200,OK,Thread Group 1-20,text,true,,691,834,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Grade,74,0,0
+1660632555217,76,GET/node-types?Slug-Sections,200,OK,Thread Group 1-19,text,true,,694,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,76,0,0
+1660632555291,66,GET/node-types?Slug-Sections,200,OK,Thread Group 1-20,text,true,,694,837,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Sections,65,0,0
+1660632558676,250,GET/node-types?Slug=institutions,200,OK,Thread Group 1-2,text,true,,698,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,250,0,174
+1660632558862,189,GET/node-types?Slug=institutions,200,OK,Thread Group 1-4,text,true,,698,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,189,0,116
+1660632558923,193,GET/node-types?Slug=institutions,200,OK,Thread Group 1-5,text,true,,698,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,193,0,116
+1660632558908,247,GET/node-types?Slug=institutions,200,OK,Thread Group 1-3,text,true,,698,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,247,0,178
+1660632558892,289,GET/node-types?Slug=institutions,200,OK,Thread Group 1-6,text,true,,698,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,289,0,215
+1660632558927,360,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-2,text,true,,2381,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,360,0,0
+1660632559288,76,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-2,text,true,,447,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,76,0,0
+1660632559279,208,GET/node-types?Slug=institutions,200,OK,Thread Group 1-7,text,true,,698,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,208,0,130
+1660632559052,512,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-4,text,true,,2381,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,512,0,0
+1660632559565,74,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-4,text,true,,447,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,73,0,0
+1660632559432,245,GET/node-types?Slug=institutions,200,OK,Thread Group 1-8,text,true,,698,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,245,0,181
+1660632559117,622,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-5,text,true,,2381,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,622,0,0
+1660632559155,598,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-3,text,true,,2381,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,598,0,0
+1660632559182,605,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-6,text,true,,2381,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,605,0,0
+1660632559740,99,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-5,text,true,,447,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,99,0,0
+1660632559754,108,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-3,text,true,,447,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,108,0,0
+1660632559788,112,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-6,text,true,,447,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,112,0,0
+1660632559365,556,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-2,text,true,,448,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,556,0,0
+1660632559777,251,GET/node-types?Slug=institutions,200,OK,Thread Group 1-9,text,true,,698,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,250,0,179
+1660632559870,173,GET/node-types?Slug=institutions,200,OK,Thread Group 1-10,text,true,,698,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,173,0,98
+1660632559899,164,GET/node-types?Slug=institutions,200,OK,Thread Group 1-12,text,true,,698,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,164,0,101
+1660632559488,659,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-7,text,true,,2381,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,659,0,0
+1660632559899,260,GET/node-types?Slug=institutions,200,OK,Thread Group 1-11,text,true,,698,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,260,0,160
+1660632559977,198,GET/node-types?Slug=institutions,200,OK,Thread Group 1-13,text,true,,698,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,198,0,100
+1660632560147,87,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-7,text,true,,447,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,87,0,0
+1660632559640,720,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-4,text,true,,448,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,720,0,0
+1660632559677,957,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-8,text,true,,2381,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,957,0,0
+1660632559840,1013,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-5,text,true,,448,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1013,0,0
+1660632559863,1054,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-3,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1054,0,0
+1660632560206,740,GET/node-types?Slug=institutions,200,OK,Thread Group 1-14,text,true,,699,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,740,0,113
+1660632560221,733,GET/node-types?Slug=institutions,200,OK,Thread Group 1-16,text,true,,699,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,733,0,119
+1660632560190,766,GET/node-types?Slug=institutions,200,OK,Thread Group 1-1,text,true,,699,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,765,0,166
+1660632560268,696,GET/node-types?Slug=institutions,200,OK,Thread Group 1-18,text,true,,699,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,696,0,106
+1660632560252,722,GET/node-types?Slug=institutions,200,OK,Thread Group 1-17,text,true,,699,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,722,0,168
+1660632560283,695,GET/node-types?Slug=institutions,200,OK,Thread Group 1-15,text,true,,699,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,695,0,161
+1660632560297,688,GET/node-types?Slug=institutions,200,OK,Thread Group 1-19,text,true,,699,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,688,0,161
+1660632560360,633,GET/node-types?Slug=institutions,200,OK,Thread Group 1-20,text,true,,699,840,20,20,https://qaapi.onelern.school/node-types?%5Bslug_contains%5D=Institution,633,0,111
+1660632559900,1159,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-6,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1159,0,0
+1660632560635,441,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-8,text,true,,448,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,441,0,0
+1660632560044,1236,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-10,text,true,,2382,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,1236,0,0
+1660632560235,1655,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-7,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1655,0,0
+1660632560064,2084,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-12,text,true,,2382,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,2084,0,0
+1660632560028,2247,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-9,text,true,,2382,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,2247,0,0
+1660632560160,2121,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-11,text,true,,2382,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,2121,0,0
+1660632559922,2368,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-2,text,true,,2030,891,20,20,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc6,2368,0,0
+1660632560175,2130,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-13,text,true,,2382,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,2130,0,0
+1660632560361,1966,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-4,text,true,,2030,891,20,20,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc6,1966,0,0
+1660632560955,1384,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-16,text,true,,2382,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,1384,0,0
+1660632560956,1389,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-1,text,true,,2382,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,1388,0,0
+1660632560965,1399,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-18,text,true,,2382,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,1399,0,0
+1660632560947,1457,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-14,text,true,,2382,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,1457,0,0
+1660632560854,1586,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-5,text,true,,1254,891,20,20,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cca,1586,0,0
+1660632561077,1817,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-8,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1816,0,0
+1660632560918,1997,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-3,text,true,,2030,891,20,20,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc6,1997,0,0
+1660632561281,1655,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-10,text,true,,449,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,1655,0,0
+1660632560975,1986,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-17,text,true,,2382,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,1986,0,0
+1660632560979,1998,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-15,text,true,,2382,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,1998,0,0
+1660632562149,835,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-12,text,true,,448,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,835,0,0
+1660632560994,2021,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-20,text,true,,2382,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,2021,0,0
+1660632560986,2057,GET/nodes?_sort=ASC&node_type=node.type&parent_id=node_id,200,OK,Thread Group 1-19,text,true,,2382,908,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=624d5851d87e5b773b5e6cbf,2056,0,0
+1660632561060,2008,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-6,text,true,,1254,891,20,20,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cca,2008,0,0
+1660632561890,1210,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-7,text,true,,1254,891,20,20,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cca,1210,0,0
+1660632562291,835,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-2,text,true,,448,860,20,20,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d5971d87e5b773b5e6ccb,835,0,0
+1660632562276,850,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-9,text,true,,448,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,850,0,0
+1660632562282,844,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-11,text,true,,448,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,844,0,0
+1660632562306,838,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-13,text,true,,448,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,838,0,0
+1660632562345,809,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-1,text,true,,448,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,809,0,0
+1660632562328,847,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-4,text,true,,448,860,20,20,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d5971d87e5b773b5e6ccb,847,0,0
+1660632562339,852,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-16,text,true,,448,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,852,0,0
+1660632562365,843,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-18,text,true,,448,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,843,0,0
+1660632562405,839,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-14,text,true,,448,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,839,0,0
+1660632562441,808,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-5,text,true,,448,860,20,20,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d599ed87e5b773b5e6cd0,808,0,0
+1660632562916,376,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-3,text,true,,448,860,20,20,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d5971d87e5b773b5e6ccb,376,0,0
+1660632562977,322,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-15,text,true,,448,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,322,0,0
+1660632562962,344,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-17,text,true,,448,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,344,0,0
+1660632563016,329,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-20,text,true,,448,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,329,0,0
+1660632563043,348,GET/getgradelist/PARENT_ID,200,OK,Thread Group 1-19,text,true,,448,835,20,20,https://qaapi.onelern.school/getgradelist/624d5851d87e5b773b5e6cbf,348,0,0
+1660632563069,397,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-6,text,true,,448,860,20,20,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d599ed87e5b773b5e6cd0,397,0,0
+1660632563101,496,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-7,text,true,,448,860,20,20,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d599ed87e5b773b5e6cd0,496,0,0
+1660632562985,980,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-12,text,true,,448,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,980,0,0
+1660632563126,1037,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-2,text,true,,87972,893,20,20,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d5971d87e5b773b5e6ccb&_start=0&_limit=-1,795,0,0
+1660632562936,1257,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-10,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1257,0,0
+1660632564203,50,OPTIONS/groups,204,No Content,Thread Group 1-2,,true,,435,546,20,20,https://qaapi.onelern.school/groups,0,0,0
+1660632563175,1078,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-4,text,true,,87972,893,20,20,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d5971d87e5b773b5e6ccb&_start=0&_limit=-1,832,0,0
+1660632564260,54,OPTIONS/groups,204,No Content,Thread Group 1-4,,true,,435,546,20,20,https://qaapi.onelern.school/groups,0,0,0
+1660632563126,1219,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-11,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1219,0,0
+1660632563126,1299,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-9,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1299,0,0
+1660632563144,1307,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-13,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1307,0,0
+1660632562894,1617,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-8,text,true,,1254,891,20,20,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cca,1617,0,0
+1660632563154,1368,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-1,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1368,0,0
+1660632563192,1356,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-16,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1356,0,0
+1660632563209,1359,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-18,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1359,0,0
+1660632563249,1413,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-5,text,true,,83185,893,20,20,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d599ed87e5b773b5e6cd0&_start=0&_limit=-1,1173,0,0
+1660632564673,64,OPTIONS/groups,204,No Content,Thread Group 1-5,,true,,435,546,20,20,https://qaapi.onelern.school/groups,0,0,0
+1660632563293,1455,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-3,text,true,,87973,893,20,20,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d5971d87e5b773b5e6ccb&_start=0&_limit=-1,1215,0,0
+1660632564756,52,OPTIONS/groups,204,No Content,Thread Group 1-3,,true,,435,546,20,20,https://qaapi.onelern.school/groups,0,0,0
+1660632563466,1512,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-6,text,true,,83185,893,20,20,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d599ed87e5b773b5e6cd0&_start=0&_limit=-1,1223,0,0
+1660632563245,1775,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-14,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1775,0,0
+1660632564986,50,OPTIONS/groups,204,No Content,Thread Group 1-6,,true,,435,546,20,20,https://qaapi.onelern.school/groups,0,0,0
+1660632563307,1929,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-17,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,1929,0,0
+1660632564511,780,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-8,text,true,,448,860,20,20,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d599ed87e5b773b5e6cd0,779,0,0
+1660632563300,2025,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-15,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,2024,0,0
+1660632563597,1738,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-7,text,true,,83185,893,20,20,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d599ed87e5b773b5e6cd0&_start=0&_limit=-1,1496,0,0
+1660632564254,1084,POST/groups,200,OK,Thread Group 1-2,text,true,,5016,5811,20,20,https://qaapi.onelern.school/groups,1084,0,0
+1660632564314,1036,POST/groups,200,OK,Thread Group 1-4,text,true,,5016,5811,20,20,https://qaapi.onelern.school/groups,1036,0,0
+1660632565343,50,OPTIONS/groups,204,No Content,Thread Group 1-7,,true,,435,546,20,20,https://qaapi.onelern.school/groups,0,0,0
+1660632563392,2065,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-19,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,2065,0,0
+1660632565339,225,GET/teacher,200,OK,Thread Group 1-2,text,true,,2774,722,20,20,https://test.onelern.school/teacher,222,0,0
+1660632563346,2220,GET/nodes?SORT:ASC&NODE_TYPE_ID = NODE_TYPE & PARENT_ID - OBJECT PROMISE,200,OK,Thread Group 1-20,text,true,,449,904,20,20,https://qaapi.onelern.school/nodes?_sort=name%3AASC&%5Bnode_type.id%5D=60dc0978dc085760fa1983af&%5Bparent_id.id%5D=%5Bobject+Promise%5D,2220,0,0
+1660632565567,1,Debug Sampler,200,OK,Thread Group 1-2,text,true,,2371,0,20,20,null,0,0,0
+1660632565351,226,GET/teacher,200,OK,Thread Group 1-4,text,true,,2776,722,19,19,https://test.onelern.school/teacher,213,0,0
+1660632565578,0,Debug Sampler,200,OK,Thread Group 1-4,text,true,,2371,0,19,19,null,0,0,0
+1660632563966,1962,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-12,text,true,,1254,891,18,18,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc9,1962,0,0
+1660632564345,1636,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-11,text,true,,1254,891,18,18,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc9,1636,0,0
+1660632564193,1790,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-10,text,true,,1254,891,18,18,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc9,1790,0,0
+1660632564738,1259,POST/groups,200,OK,Thread Group 1-5,text,true,,5860,5811,18,18,https://qaapi.onelern.school/groups,1259,0,0
+1660632564809,1199,POST/groups,200,OK,Thread Group 1-3,text,true,,5013,5811,18,18,https://qaapi.onelern.school/groups,1199,0,0
+1660632565037,994,POST/groups,200,OK,Thread Group 1-6,text,true,,5015,5811,18,18,https://qaapi.onelern.school/groups,994,0,0
+1660632564426,1644,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-9,text,true,,1254,891,18,18,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc9,1644,0,0
+1660632564452,1622,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-13,text,true,,1232,891,18,18,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc7,1622,0,0
+1660632565393,706,POST/groups,200,OK,Thread Group 1-7,text,true,,5011,5811,18,18,https://qaapi.onelern.school/groups,705,0,0
+1660632565997,216,GET/teacher,200,OK,Thread Group 1-5,text,true,,2776,722,18,18,https://test.onelern.school/teacher,215,0,0
+1660632566008,205,GET/teacher,200,OK,Thread Group 1-3,text,true,,2774,722,18,18,https://test.onelern.school/teacher,205,0,0
+1660632566031,183,GET/teacher,200,OK,Thread Group 1-6,text,true,,2774,722,18,18,https://test.onelern.school/teacher,182,0,0
+1660632566213,1,Debug Sampler,200,OK,Thread Group 1-5,text,true,,2371,0,18,18,null,0,0,0
+1660632566214,0,Debug Sampler,200,OK,Thread Group 1-3,text,true,,2371,0,18,18,null,0,0,0
+1660632566214,0,Debug Sampler,200,OK,Thread Group 1-6,text,true,,2371,0,18,18,null,0,0,0
+1660632566099,121,GET/teacher,200,OK,Thread Group 1-7,text,true,,2774,722,15,15,https://test.onelern.school/teacher,115,0,0
+1660632566220,1,Debug Sampler,200,OK,Thread Group 1-7,text,true,,2371,0,15,15,null,0,0,0
+1660632565928,377,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-12,text,true,,448,860,14,14,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d5995d87e5b773b5e6ccf,377,0,0
+1660632565291,1039,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-8,text,true,,83184,893,14,14,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d599ed87e5b773b5e6cd0&_start=0&_limit=-1,777,0,0
+1660632565981,357,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-11,text,true,,448,860,14,14,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d5995d87e5b773b5e6ccf,357,0,0
+1660632566336,68,OPTIONS/groups,204,No Content,Thread Group 1-8,,true,,435,546,14,14,https://qaapi.onelern.school/groups,0,0,0
+1660632565983,668,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-10,text,true,,448,860,14,14,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d5995d87e5b773b5e6ccf,668,0,0
+1660632566070,629,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-9,text,true,,448,860,14,14,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d5995d87e5b773b5e6ccf,629,0,0
+1660632566075,670,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-13,text,true,,448,860,14,14,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d5982d87e5b773b5e6ccc,670,0,0
+1660632564522,2276,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-1,text,true,,2030,891,14,14,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc6,2276,0,0
+1660632564568,2603,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-18,text,true,,1232,891,14,14,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc8,2603,0,0
+1660632564548,2685,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-16,text,true,,1232,891,14,14,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc7,2685,0,0
+1660632565236,2020,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-17,text,true,,1232,891,14,14,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc8,2020,0,0
+1660632565020,2240,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-14,text,true,,1232,891,14,14,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc7,2240,0,0
+1660632565458,1812,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-19,text,true,,1232,891,14,14,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc8,1812,0,0
+1660632565325,1959,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-15,text,true,,1232,891,14,14,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc7,1959,0,0
+1660632565567,1759,GET/nodes?NODE_TYPE_ID,200,OK,Thread Group 1-20,text,true,,1232,891,14,14,https://qaapi.onelern.school/nodes?%5Bnode_type.id%5D=60dc0a00dc085760fa1983b6&%5Bparent_id.id%5D=624d593bd87e5b773b5e6cc8,1759,0,0
+1660632566405,1044,POST/groups,200,OK,Thread Group 1-8,text,true,,5012,5811,14,14,https://qaapi.onelern.school/groups,1044,0,0
+1660632567171,359,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-18,text,true,,448,860,14,14,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d598cd87e5b773b5e6ccd,359,0,0
+1660632567450,101,GET/teacher,200,OK,Thread Group 1-8,text,true,,2776,722,14,14,https://test.onelern.school/teacher,68,0,0
+1660632567551,0,Debug Sampler,200,OK,Thread Group 1-8,text,true,,2371,0,14,14,null,0,0,0
+1660632566799,780,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-1,text,true,,448,860,13,13,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d5971d87e5b773b5e6ccb,780,0,0
+1660632566306,1290,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-12,text,true,,82670,893,13,13,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d5995d87e5b773b5e6ccf&_start=0&_limit=-1,1018,0,0
+1660632567260,354,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-14,text,true,,448,860,13,13,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d5982d87e5b773b5e6ccc,354,0,0
+1660632567270,344,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-19,text,true,,448,860,13,13,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d598cd87e5b773b5e6ccd,344,0,0
+1660632567256,411,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-17,text,true,,448,860,13,13,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d598cd87e5b773b5e6ccd,411,0,0
+1660632567284,385,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-15,text,true,,448,860,13,13,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d5982d87e5b773b5e6ccc,385,0,0
+1660632567327,342,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-20,text,true,,448,860,13,13,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d598cd87e5b773b5e6ccd,342,0,0
+1660632567233,438,GET/getusercount/STUDENT_LIST_ROLE_ID/sTUDNT_LIST_NODE_ID,200,OK,Thread Group 1-16,text,true,,448,860,13,13,https://qaapi.onelern.school/getusercount/60dbfd15dc085760fa19802a/624d5982d87e5b773b5e6ccc,438,0,0
+1660632566339,1359,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-11,text,true,,82671,893,13,13,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d5995d87e5b773b5e6ccf&_start=0&_limit=-1,1076,0,0
+1660632567600,102,OPTIONS/groups,204,No Content,Thread Group 1-12,,true,,435,546,13,13,https://qaapi.onelern.school/groups,0,0,0
+1660632567701,141,OPTIONS/groups,204,No Content,Thread Group 1-11,,true,,435,546,13,13,https://qaapi.onelern.school/groups,0,0,0
+1660632566652,1210,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-10,text,true,,82670,893,13,13,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d5995d87e5b773b5e6ccf&_start=0&_limit=-1,925,0,0
+1660632566699,1204,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-9,text,true,,82670,893,13,13,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d5995d87e5b773b5e6ccf&_start=0&_limit=-1,908,0,0
+1660632566745,1167,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-13,text,true,,81126,893,13,13,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d5982d87e5b773b5e6ccc&_start=0&_limit=-1,912,0,0
+1660632567868,88,OPTIONS/groups,204,No Content,Thread Group 1-10,,true,,435,546,13,13,https://qaapi.onelern.school/groups,0,0,0
+1660632567910,49,OPTIONS/groups,204,No Content,Thread Group 1-9,,true,,435,546,13,13,https://qaapi.onelern.school/groups,0,0,0
+1660632567918,68,OPTIONS/groups,204,No Content,Thread Group 1-13,,true,,435,546,13,13,https://qaapi.onelern.school/groups,0,0,0
+1660632567579,580,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-1,text,true,,87972,893,13,13,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d5971d87e5b773b5e6ccb&_start=0&_limit=-1,341,0,0
+1660632567530,654,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-18,text,true,,81935,893,13,13,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d598cd87e5b773b5e6ccd&_start=0&_limit=-1,417,0,0
+1660632568190,243,OPTIONS/groups,204,No Content,Thread Group 1-18,,true,,435,546,13,13,https://qaapi.onelern.school/groups,0,0,0
+1660632568165,268,OPTIONS/groups,204,No Content,Thread Group 1-1,,true,,435,546,13,13,https://qaapi.onelern.school/groups,0,0,0
+1660632567703,1074,POST/groups,200,OK,Thread Group 1-12,text,true,,5040,5811,13,13,https://qaapi.onelern.school/groups,1074,0,0
+1660632567843,989,POST/groups,200,OK,Thread Group 1-11,text,true,,5894,5811,13,13,https://qaapi.onelern.school/groups,989,0,0
+1660632567615,1221,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-14,text,true,,81126,893,13,13,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d5982d87e5b773b5e6ccc&_start=0&_limit=-1,962,0,0
+1660632567615,1242,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-19,text,true,,81935,893,13,13,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d598cd87e5b773b5e6ccd&_start=0&_limit=-1,993,0,0
+1660632567957,904,POST/groups,200,OK,Thread Group 1-10,text,true,,5041,5811,13,13,https://qaapi.onelern.school/groups,904,0,0
+1660632567959,906,POST/groups,200,OK,Thread Group 1-9,text,true,,5043,5811,13,13,https://qaapi.onelern.school/groups,906,0,0
+1660632567986,891,POST/groups,200,OK,Thread Group 1-13,text,true,,5020,5811,13,13,https://qaapi.onelern.school/groups,891,0,0
+1660632568777,104,GET/teacher,200,OK,Thread Group 1-12,text,true,,2776,722,13,13,https://test.onelern.school/teacher,104,0,0
+1660632568882,0,Debug Sampler,200,OK,Thread Group 1-12,text,true,,2372,0,13,13,null,0,0,0
+1660632568832,54,GET/teacher,200,OK,Thread Group 1-11,text,true,,2774,722,12,12,https://test.onelern.school/teacher,50,0,0
+1660632568434,452,POST/groups,200,OK,Thread Group 1-1,text,true,,6778,5811,12,12,https://qaapi.onelern.school/groups,452,0,0
+1660632568886,1,Debug Sampler,200,OK,Thread Group 1-11,text,true,,2372,0,12,12,null,0,0,0
+1660632568434,477,POST/groups,200,OK,Thread Group 1-18,text,true,,5012,5811,11,11,https://qaapi.onelern.school/groups,477,0,0
+1660632568861,61,OPTIONS/groups,204,No Content,Thread Group 1-19,,true,,435,546,11,11,https://qaapi.onelern.school/groups,0,0,0
+1660632568838,84,OPTIONS/groups,204,No Content,Thread Group 1-14,,true,,435,546,11,11,https://qaapi.onelern.school/groups,0,0,0
+1660632568865,91,GET/teacher,200,OK,Thread Group 1-9,text,true,,2776,722,11,11,https://test.onelern.school/teacher,91,0,0
+1660632568956,0,Debug Sampler,200,OK,Thread Group 1-9,text,true,,2370,0,11,11,null,0,0,0
+1660632568912,46,GET/teacher,200,OK,Thread Group 1-18,text,true,,2781,722,10,10,https://test.onelern.school/teacher,46,0,0
+1660632568877,81,GET/teacher,200,OK,Thread Group 1-13,text,true,,2781,722,10,10,https://test.onelern.school/teacher,79,0,0
+1660632568861,97,GET/teacher,200,OK,Thread Group 1-10,text,true,,2774,722,10,10,https://test.onelern.school/teacher,97,0,0
+1660632568886,72,GET/teacher,200,OK,Thread Group 1-1,text,true,,2774,722,10,10,https://test.onelern.school/teacher,72,0,0
+1660632568958,1,Debug Sampler,200,OK,Thread Group 1-13,text,true,,2372,0,10,10,null,0,0,0
+1660632568958,1,Debug Sampler,200,OK,Thread Group 1-18,text,true,,2372,0,10,10,null,0,0,0
+1660632568958,1,Debug Sampler,200,OK,Thread Group 1-10,text,true,,2372,0,10,10,null,0,0,0
+1660632568958,1,Debug Sampler,200,OK,Thread Group 1-1,text,true,,2371,0,10,10,null,0,0,0
+1660632567670,1324,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-20,text,true,,81935,893,6,6,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d598cd87e5b773b5e6ccd&_start=0&_limit=-1,1013,0,0
+1660632567671,1328,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-16,text,true,,81126,893,6,6,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d5982d87e5b773b5e6ccc&_start=0&_limit=-1,987,0,0
+1660632567670,1371,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-15,text,true,,81126,893,6,6,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d5982d87e5b773b5e6ccc&_start=0&_limit=-1,1086,0,0
+1660632567668,1375,GET/getStudentsList?ROLE=STUDENT_LIST_NODE_ID&NODES=STUDENT_LIST_NODE_ID&_start=0&_limit=-1,200,OK,Thread Group 1-17,text,true,,81935,893,6,6,https://qaapi.onelern.school/getStudentsList?role=60dbfd15dc085760fa19802a&nodes=624d598cd87e5b773b5e6ccd&_start=0&_limit=-1,1048,0,0
+1660632569001,63,OPTIONS/groups,204,No Content,Thread Group 1-20,,true,,435,546,6,6,https://qaapi.onelern.school/groups,0,0,0
+1660632569005,61,OPTIONS/groups,204,No Content,Thread Group 1-16,,true,,435,546,6,6,https://qaapi.onelern.school/groups,0,0,0
+1660632568922,157,POST/groups,200,OK,Thread Group 1-19,text,true,,5010,5811,6,6,https://qaapi.onelern.school/groups,157,0,0
+1660632568922,163,POST/groups,200,OK,Thread Group 1-14,text,true,,5013,5811,6,6,https://qaapi.onelern.school/groups,162,0,0
+1660632569048,46,OPTIONS/groups,204,No Content,Thread Group 1-17,,true,,435,546,6,6,https://qaapi.onelern.school/groups,0,0,0
+1660632569047,47,OPTIONS/groups,204,No Content,Thread Group 1-15,,true,,435,546,6,6,https://qaapi.onelern.school/groups,0,0,0
+1660632569085,81,GET/teacher,200,OK,Thread Group 1-14,text,true,,2774,722,6,6,https://test.onelern.school/teacher,81,0,0
+1660632569168,0,Debug Sampler,200,OK,Thread Group 1-14,text,true,,2372,0,6,6,null,0,0,0
+1660632569080,88,GET/teacher,200,OK,Thread Group 1-19,text,true,,2776,722,6,6,https://test.onelern.school/teacher,86,0,0
+1660632569171,1,Debug Sampler,200,OK,Thread Group 1-19,text,true,,2371,0,5,5,null,0,0,0
+1660632569064,187,POST/groups,200,OK,Thread Group 1-20,text,true,,5019,5811,4,4,https://qaapi.onelern.school/groups,187,0,0
+1660632569066,194,POST/groups,200,OK,Thread Group 1-16,text,true,,5018,5811,4,4,https://qaapi.onelern.school/groups,194,0,0
+1660632569096,196,POST/groups,200,OK,Thread Group 1-15,text,true,,5018,5811,4,4,https://qaapi.onelern.school/groups,196,0,0
+1660632569096,208,POST/groups,200,OK,Thread Group 1-17,text,true,,5015,5811,4,4,https://qaapi.onelern.school/groups,208,0,0
+1660632569253,226,GET/teacher,200,OK,Thread Group 1-20,text,true,,2783,722,4,4,https://test.onelern.school/teacher,225,0,0
+1660632569479,1,Debug Sampler,200,OK,Thread Group 1-20,text,true,,2372,0,4,4,null,0,0,0
+1660632569262,227,GET/teacher,200,OK,Thread Group 1-16,text,true,,2774,722,3,3,https://test.onelern.school/teacher,218,0,0
+1660632569305,184,GET/teacher,200,OK,Thread Group 1-17,text,true,,2774,722,3,3,https://test.onelern.school/teacher,173,0,0
+1660632569292,197,GET/teacher,200,OK,Thread Group 1-15,text,true,,2774,722,3,3,https://test.onelern.school/teacher,186,0,0
+1660632569489,0,Debug Sampler,200,OK,Thread Group 1-16,text,true,,2372,0,3,3,null,0,0,0
+1660632569489,1,Debug Sampler,200,OK,Thread Group 1-15,text,true,,2372,0,3,3,null,0,0,0
+1660632569489,1,Debug Sampler,200,OK,Thread Group 1-17,text,true,,2372,0,3,3,null,0,0,0

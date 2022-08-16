@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.5">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.3">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -33,6 +33,11 @@
             <stringProp name="Argument.value">test.onelern.school</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="wait" elementType="Argument">
+            <stringProp name="Argument.name">wait</stringProp>
+            <stringProp name="Argument.value">5000</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
@@ -57,7 +62,7 @@
       </CookieManager>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-        <stringProp name="filename">C:/Users/User/Downloads/New_Users_20_Teachers.csv</stringProp>
+        <stringProp name="filename">F:/JMeter/Users_20_Teachers.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames">dp_phone</stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -310,42 +315,6 @@
             </collectionProp>
           </HeaderManager>
           <hashTree/>
-          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="dc_role_id" enabled="true">
-            <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-            <stringProp name="RegexExtractor.refname">dc_role_id</stringProp>
-            <stringProp name="RegexExtractor.regex">&quot;role&quot;:{&quot;_id&quot;:&quot;(.*?)&quot;,&quot;name&quot;</stringProp>
-            <stringProp name="RegexExtractor.template">$1$</stringProp>
-            <stringProp name="RegexExtractor.default">invalid_role_id</stringProp>
-            <stringProp name="RegexExtractor.match_number">1</stringProp>
-          </RegexExtractor>
-          <hashTree/>
-          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="dc_node_type" enabled="true">
-            <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-            <stringProp name="RegexExtractor.refname">dc_node_type</stringProp>
-            <stringProp name="RegexExtractor.regex">&quot;node_type&quot;:&quot;(.*?)&quot;,&quot;parent_id&quot;</stringProp>
-            <stringProp name="RegexExtractor.template">$1$</stringProp>
-            <stringProp name="RegexExtractor.default">invalid_node_type</stringProp>
-            <stringProp name="RegexExtractor.match_number">1</stringProp>
-          </RegexExtractor>
-          <hashTree/>
-          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="dc_node_type_2" enabled="true">
-            <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-            <stringProp name="RegexExtractor.refname">dc_node_type_2</stringProp>
-            <stringProp name="RegexExtractor.regex">&quot;node_type&quot;:&quot;(.*?)&quot;,&quot;parent_id&quot;</stringProp>
-            <stringProp name="RegexExtractor.template">$1$</stringProp>
-            <stringProp name="RegexExtractor.default">invalid_node_type_2</stringProp>
-            <stringProp name="RegexExtractor.match_number">360dc0a00dc085760fa1983b6</stringProp>
-          </RegexExtractor>
-          <hashTree/>
-          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="dc_grade_id" enabled="true">
-            <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-            <stringProp name="RegexExtractor.refname">dc_grade_id</stringProp>
-            <stringProp name="RegexExtractor.regex">&quot;grade&quot;:&quot;(.*?)&quot;,&quot;subject&quot;:</stringProp>
-            <stringProp name="RegexExtractor.template">$1$</stringProp>
-            <stringProp name="RegexExtractor.default">invalid_grade_id</stringProp>
-            <stringProp name="RegexExtractor.match_number">1</stringProp>
-          </RegexExtractor>
-          <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST/otps/loginWithPassword" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
@@ -442,7 +411,7 @@
           <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="dc_perm_id" enabled="true">
             <stringProp name="RegexExtractor.useHeaders">false</stringProp>
             <stringProp name="RegexExtractor.refname">dc_perm_id</stringProp>
-            <stringProp name="RegexExtractor.regex">&quot;users_permissions_user&quot;:&quot;(.*?)&quot;,&quot;id&quot;:</stringProp>
+            <stringProp name="RegexExtractor.regex">&quot;}],&quot;_id&quot;:&quot;(.*?)&quot;,&quot;username&quot;:&quot;</stringProp>
             <stringProp name="RegexExtractor.template">$1$</stringProp>
             <stringProp name="RegexExtractor.default">invalid_perm_id</stringProp>
             <stringProp name="RegexExtractor.match_number">1</stringProp>
@@ -473,6 +442,42 @@
             <stringProp name="RegexExtractor.template">$1$</stringProp>
             <stringProp name="RegexExtractor.default">invalid_student_node_id</stringProp>
             <stringProp name="RegexExtractor.match_number">2</stringProp>
+          </RegexExtractor>
+          <hashTree/>
+          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="dc_role_id" enabled="true">
+            <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+            <stringProp name="RegexExtractor.refname">dc_role_id</stringProp>
+            <stringProp name="RegexExtractor.regex">&quot;role&quot;:{&quot;_id&quot;:&quot;(.*?)&quot;,&quot;name&quot;</stringProp>
+            <stringProp name="RegexExtractor.template">$1$</stringProp>
+            <stringProp name="RegexExtractor.default">invalid_role_id</stringProp>
+            <stringProp name="RegexExtractor.match_number">1</stringProp>
+          </RegexExtractor>
+          <hashTree/>
+          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="dc_node_type_2" enabled="true">
+            <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+            <stringProp name="RegexExtractor.refname">dc_node_type_2</stringProp>
+            <stringProp name="RegexExtractor.regex">&quot;node_type&quot;:&quot;(.*?)&quot;,&quot;parent_id&quot;</stringProp>
+            <stringProp name="RegexExtractor.template">$1$</stringProp>
+            <stringProp name="RegexExtractor.default">invalid_node_type_2</stringProp>
+            <stringProp name="RegexExtractor.match_number">3</stringProp>
+          </RegexExtractor>
+          <hashTree/>
+          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="dc_node_type" enabled="true">
+            <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+            <stringProp name="RegexExtractor.refname">dc_node_type</stringProp>
+            <stringProp name="RegexExtractor.regex">&quot;node_type&quot;:&quot;(.*?)&quot;,&quot;parent_id&quot;</stringProp>
+            <stringProp name="RegexExtractor.template">$1$</stringProp>
+            <stringProp name="RegexExtractor.default">invalid_node_type</stringProp>
+            <stringProp name="RegexExtractor.match_number">1</stringProp>
+          </RegexExtractor>
+          <hashTree/>
+          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="dc_grade_id" enabled="true">
+            <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+            <stringProp name="RegexExtractor.refname">dc_grade_id</stringProp>
+            <stringProp name="RegexExtractor.regex">\[],&quot;_id&quot;:&quot;(.*?)&quot;,&quot;name&quot;:&quot;</stringProp>
+            <stringProp name="RegexExtractor.template">$1$</stringProp>
+            <stringProp name="RegexExtractor.default">invalid_grade_id</stringProp>
+            <stringProp name="RegexExtractor.match_number">1</stringProp>
           </RegexExtractor>
           <hashTree/>
         </hashTree>
@@ -720,7 +725,7 @@
           <BoundaryExtractor guiclass="BoundaryExtractorGui" testclass="BoundaryExtractor" testname="dc_student_list_role_id" enabled="true">
             <stringProp name="BoundaryExtractor.useHeaders">false</stringProp>
             <stringProp name="BoundaryExtractor.refname">dc_student_list_role_id</stringProp>
-            <stringProp name="BoundaryExtractor.lboundary">&amp;&amp;h&amp;&amp;(xn.getUsersCount(&quot;</stringProp>
+            <stringProp name="BoundaryExtractor.lboundary">&amp;&amp;h&amp;&amp;(kn.getUsersCount(&quot;</stringProp>
             <stringProp name="BoundaryExtractor.rboundary">&quot;,h).then((e=&gt;{})),</stringProp>
             <stringProp name="BoundaryExtractor.default">invalid_student_list_role_id</stringProp>
             <boolProp name="BoundaryExtractor.default_empty_value">false</boolProp>
@@ -898,6 +903,7 @@
                 <stringProp name="Argument.name">[slug_contains]</stringProp>
                 <stringProp name="Argument.value">Centers</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
             </collectionProp>
           </elementProp>
@@ -986,6 +992,7 @@
                 <stringProp name="Argument.name">[slug_contains]</stringProp>
                 <stringProp name="Argument.value">Grade</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
             </collectionProp>
           </elementProp>
@@ -1074,6 +1081,7 @@
                 <stringProp name="Argument.name">[slug_contains]</stringProp>
                 <stringProp name="Argument.value">Sections</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
             </collectionProp>
           </elementProp>
@@ -1162,6 +1170,7 @@
                 <stringProp name="Argument.name">[slug_contains]</stringProp>
                 <stringProp name="Argument.value">Institution</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
             </collectionProp>
           </elementProp>
@@ -1241,6 +1250,10 @@
             </collectionProp>
           </HeaderManager>
           <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">${wait}</stringProp>
+          </ConstantTimer>
+          <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET/nodes?_sort=ASC&amp;node_type=node.type&amp;parent_id=node_id" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
@@ -1250,18 +1263,21 @@
                 <stringProp name="Argument.name">_sort</stringProp>
                 <stringProp name="Argument.value">name:ASC</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="[node_type.id]" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
                 <stringProp name="Argument.name">[node_type.id]</stringProp>
                 <stringProp name="Argument.value">${dc_node_type}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="[parent_id.id]" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
                 <stringProp name="Argument.name">[parent_id.id]</stringProp>
                 <stringProp name="Argument.value">${dc_node_id}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
             </collectionProp>
           </elementProp>
@@ -1431,18 +1447,21 @@
                 <stringProp name="Argument.name">_sort</stringProp>
                 <stringProp name="Argument.value">name:ASC</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="[node_type.id]" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
                 <stringProp name="Argument.name">[node_type.id]</stringProp>
                 <stringProp name="Argument.value">${dc_node_type}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="[parent_id.id]" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
                 <stringProp name="Argument.name">[parent_id.id]</stringProp>
                 <stringProp name="Argument.value">[object Promise]</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
             </collectionProp>
           </elementProp>
@@ -1531,12 +1550,14 @@
                 <stringProp name="Argument.name">[node_type.id]</stringProp>
                 <stringProp name="Argument.value">${dc_node_type_2}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="[parent_id.id]" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">true</boolProp>
                 <stringProp name="Argument.name">[parent_id.id]</stringProp>
                 <stringProp name="Argument.value">${dc_grade_id}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
             </collectionProp>
           </elementProp>
@@ -1706,24 +1727,28 @@
                 <stringProp name="Argument.name">role</stringProp>
                 <stringProp name="Argument.value">${dc_student_list_role_id}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="nodes" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">nodes</stringProp>
                 <stringProp name="Argument.value">${dc_student_node_id}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="_start" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">_start</stringProp>
                 <stringProp name="Argument.value">0</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="_limit" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">_limit</stringProp>
                 <stringProp name="Argument.value">-1</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
             </collectionProp>
           </elementProp>
@@ -2081,6 +2106,12 @@ vars.put(&quot;NewTime&quot;,mytime);
           </HeaderManager>
           <hashTree/>
         </hashTree>
+        <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="true">
+          <boolProp name="displayJMeterProperties">false</boolProp>
+          <boolProp name="displayJMeterVariables">true</boolProp>
+          <boolProp name="displaySystemProperties">false</boolProp>
+        </DebugSampler>
+        <hashTree/>
       </hashTree>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
