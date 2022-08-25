@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.3">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.5">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -31,6 +31,11 @@
           <elementProp name="middleware" elementType="Argument">
             <stringProp name="Argument.name">middleware</stringProp>
             <stringProp name="Argument.value">salesmiddleware.onelern.school</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="test_doubts" elementType="Argument">
+            <stringProp name="Argument.name">test_doubts</stringProp>
+            <stringProp name="Argument.value">test-doubts.onelern.school</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -871,7 +876,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">test-doubts.onelern.school</stringProp>
+          <stringProp name="HTTPSampler.domain">${test_doubts}</stringProp>
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -971,7 +976,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -983,7 +988,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Access-Control-Request-Method" elementType="Header">
                 <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -1044,7 +1049,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -1056,7 +1061,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -1156,7 +1161,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -1168,7 +1173,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Access-Control-Request-Method" elementType="Header">
                 <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -1229,7 +1234,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -1241,7 +1246,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Access-Control-Request-Method" elementType="Header">
                 <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -1306,7 +1311,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -1318,7 +1323,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -1400,7 +1405,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -1412,7 +1417,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Access-Control-Request-Method" elementType="Header">
                 <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -1480,7 +1485,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -1492,7 +1497,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -1589,7 +1594,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -1601,7 +1606,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -1674,7 +1679,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -1686,7 +1691,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Access-Control-Request-Method" elementType="Header">
                 <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -1804,7 +1809,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -1816,7 +1821,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -1889,7 +1894,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -1901,7 +1906,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -1980,7 +1985,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -1992,7 +1997,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -2053,7 +2058,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -2065,7 +2070,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Access-Control-Request-Method" elementType="Header">
                 <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -2133,7 +2138,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -2145,7 +2150,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -2227,7 +2232,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -2239,7 +2244,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Access-Control-Request-Method" elementType="Header">
                 <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -2296,7 +2301,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -2308,7 +2313,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -2381,7 +2386,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -2393,7 +2398,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Access-Control-Request-Method" elementType="Header">
                 <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -2457,7 +2462,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -2469,7 +2474,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -2545,7 +2550,7 @@
               </elementProp>
               <elementProp name="Referer" elementType="Header">
                 <stringProp name="Header.name">Referer</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
               </elementProp>
               <elementProp name="Sec-Fetch-Site" elementType="Header">
                 <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -2557,7 +2562,7 @@
               </elementProp>
               <elementProp name="Origin" elementType="Header">
                 <stringProp name="Header.name">Origin</stringProp>
-                <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
               </elementProp>
               <elementProp name="Accept" elementType="Header">
                 <stringProp name="Header.name">Accept</stringProp>
@@ -3760,7 +3765,7 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">test-doubts.onelern.school</stringProp>
+            <stringProp name="HTTPSampler.domain">${test_doubts}</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -3860,7 +3865,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -3872,7 +3877,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -3929,7 +3934,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -3941,7 +3946,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -4037,7 +4042,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -4049,7 +4054,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -4106,7 +4111,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -4118,7 +4123,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -4175,7 +4180,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -4187,7 +4192,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -4252,7 +4257,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -4264,7 +4269,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -4342,7 +4347,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -4354,7 +4359,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -4418,7 +4423,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -4430,7 +4435,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -4506,7 +4511,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -4518,7 +4523,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -4611,7 +4616,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -4623,7 +4628,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -4692,7 +4697,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -4704,7 +4709,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -4818,7 +4823,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -4830,7 +4835,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -4917,7 +4922,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -4929,7 +4934,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -4990,7 +4995,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -5002,7 +5007,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -5063,7 +5068,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -5075,7 +5080,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -5139,7 +5144,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -5151,7 +5156,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -5229,7 +5234,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -5241,7 +5246,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -5298,7 +5303,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -5310,7 +5315,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -5379,7 +5384,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -5391,7 +5396,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -5455,7 +5460,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -5467,7 +5472,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -5543,7 +5548,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -5555,7 +5560,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -5638,7 +5643,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -5650,7 +5655,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -5734,7 +5739,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -5746,7 +5751,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -5822,7 +5827,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -5834,7 +5839,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -5960,7 +5965,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -5972,7 +5977,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -6041,7 +6046,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -6053,7 +6058,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -7481,7 +7486,7 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">test-doubts.onelern.school</stringProp>
+            <stringProp name="HTTPSampler.domain">${test_doubts}</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -7581,7 +7586,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -7593,7 +7598,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -7650,7 +7655,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -7662,7 +7667,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -7758,7 +7763,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -7770,7 +7775,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -7827,7 +7832,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -7839,7 +7844,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -7903,7 +7908,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -7915,7 +7920,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -7984,7 +7989,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -7996,7 +8001,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -8061,7 +8066,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -8073,7 +8078,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -8151,7 +8156,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -8163,7 +8168,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -8227,7 +8232,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -8239,7 +8244,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -8315,7 +8320,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -8327,7 +8332,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -8420,7 +8425,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -8432,7 +8437,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -8501,7 +8506,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -8513,7 +8518,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -8627,7 +8632,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -8639,7 +8644,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -8726,7 +8731,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -8738,7 +8743,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -8799,7 +8804,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -8811,7 +8816,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -8872,7 +8877,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -8884,7 +8889,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -8948,7 +8953,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -8960,7 +8965,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -9038,7 +9043,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -9050,7 +9055,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -9107,7 +9112,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -9119,7 +9124,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -9188,7 +9193,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -9200,7 +9205,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
@@ -9264,7 +9269,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -9276,7 +9281,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -9352,7 +9357,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -9364,7 +9369,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -9447,7 +9452,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -9459,7 +9464,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -9543,7 +9548,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -9555,7 +9560,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -9681,7 +9686,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -9693,7 +9698,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -9762,7 +9767,7 @@
                 </elementProp>
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school/</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}/</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -9774,7 +9779,7 @@
                 </elementProp>
                 <elementProp name="Origin" elementType="Header">
                   <stringProp name="Header.name">Origin</stringProp>
-                  <stringProp name="Header.value">${scheme}://test-doubts.onelern.school</stringProp>
+                  <stringProp name="Header.value">${scheme}://${test_doubts}</stringProp>
                 </elementProp>
                 <elementProp name="Access-Control-Request-Method" elementType="Header">
                   <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
