@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.3">
+=======
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.5">
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -64,7 +68,11 @@
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Student_Library CSV" enabled="true">
         <stringProp name="delimiter">,</stringProp>
         <stringProp name="fileEncoding"></stringProp>
+<<<<<<< HEAD
         <stringProp name="filename">F:/Git Clone/Performance_Testing/Library Module/StudentLibraryCSV.csv</stringProp>
+=======
+        <stringProp name="filename">C:\Users\User\Downloads\StudentLibraryCSV.csv</stringProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
         <boolProp name="ignoreFirstLine">true</boolProp>
         <boolProp name="quotedData">true</boolProp>
         <boolProp name="recycle">true</boolProp>
@@ -79,8 +87,13 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
+<<<<<<< HEAD
         <stringProp name="ThreadGroup.num_threads">20</stringProp>
         <stringProp name="ThreadGroup.ramp_time">5</stringProp>
+=======
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
         <longProp name="ThreadGroup.start_time">1370726934000</longProp>
         <longProp name="ThreadGroup.end_time">1370726934000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
@@ -89,9 +102,15 @@
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
+<<<<<<< HEAD
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Login as Student ${__threadNum}" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
+=======
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Login as Student" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
         </TransactionController>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/signin-5" enabled="true">
@@ -773,9 +792,15 @@
             <hashTree/>
           </hashTree>
         </hashTree>
+<<<<<<< HEAD
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Library ${__threadNum}" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">true</boolProp>
+=======
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Library " enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">false</boolProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
         </TransactionController>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/license-assignments/userbooksBasedOnLicence-70" enabled="true">
@@ -952,6 +977,7 @@
               <stringProp name="RegexExtractor.match_number">1</stringProp>
             </RegexExtractor>
             <hashTree/>
+<<<<<<< HEAD
             <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="dc_subjectid" enabled="true">
               <stringProp name="RegexExtractor.useHeaders">false</stringProp>
               <stringProp name="RegexExtractor.refname">dc_subjectid</stringProp>
@@ -970,6 +996,8 @@
               <stringProp name="RegexExtractor.match_number">1</stringProp>
             </RegexExtractor>
             <hashTree/>
+=======
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
           </hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/user-book-statuses-82" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
@@ -1391,6 +1419,7 @@ vars.put(&quot;dc_institute_id&quot;,dc_institute_id);
               <stringProp name="JSONPostProcessor.defaultValues">invalid_section_quiz_asset_id</stringProp>
             </JSONPostProcessor>
             <hashTree/>
+<<<<<<< HEAD
             <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="dc_chapterSectionId" enabled="true">
               <stringProp name="JSONPostProcessor.referenceNames">dc_chapterSectionId</stringProp>
               <stringProp name="JSONPostProcessor.jsonPathExprs">$.content[2].id</stringProp>
@@ -1398,6 +1427,8 @@ vars.put(&quot;dc_institute_id&quot;,dc_institute_id);
               <stringProp name="JSONPostProcessor.defaultValues">invalid_chapterSectionId</stringProp>
             </JSONPostProcessor>
             <hashTree/>
+=======
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
           </hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/user-book-statuses/624e9b7ed87e5b773b5e6f35-118" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
@@ -2063,7 +2094,11 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
+<<<<<<< HEAD
                   <stringProp name="Argument.value">{&quot;quiz_data&quot;:[{&quot;asset_guid&quot;:&quot;${dc_section_quiz_asset_id}&quot;,&quot;created_at&quot;:&quot;1661496622115&quot;,&quot;class_id&quot;:&quot;${dc_class_id}&quot;,&quot;section_id&quot;:&quot;${dc_section_id}&quot;,&quot;institution_id&quot;:&quot;${dc_institute_id}&quot;,&quot;center_id&quot;:&quot;${dc_center_id}&quot;,&quot;username&quot;:&quot;Suchir Priyabroto&quot;,&quot;user_id&quot;:&quot;${dc_users_perm_user}&quot;,&quot;result&quot;:${dp_quiz_data},&quot;chapterSectionId&quot;:&quot;${dc_chapterSectionId}&quot;,&quot;chapterId&quot;:&quot;${dc_chapter_id}&quot;,&quot;subjectId&quot;:&quot;${dc_subjectid}&quot;,&quot;subjectTitle&quot;:&quot;English&quot;,&quot;curriculumId&quot;:&quot;${dc_curriculum}&quot;,&quot;curriculumTitle&quot;:&quot;Central Board Secondary Education&quot;}]}</stringProp>
+=======
+                  <stringProp name="Argument.value">{&quot;quiz_data&quot;:[{&quot;asset_guid&quot;:&quot;${dc_section_quiz_asset_id}&quot;,&quot;created_at&quot;:&quot;&quot;,&quot;class_id&quot;:&quot;${dc_class_id}&quot;,&quot;section_id&quot;:&quot;${dc_section_id}&quot;,&quot;institution_id&quot;:&quot;${dc_institute_id}&quot;,&quot;center_id&quot;:&quot;${dc_center_id}&quot;,&quot;username&quot;:&quot;Suchir Priyabroto&quot;,&quot;user_id&quot;:&quot;${dc_users_perm_user}&quot;,&quot;result&quot;:${dp_quiz_data},&quot;chapterSectionId&quot;:&quot;6221cbf384ee0b02a94628ff&quot;,&quot;chapterId&quot;:&quot;6221cbf384ee0b02a94628fe&quot;,&quot;subjectId&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;subjectTitle&quot;:&quot;English&quot;,&quot;curriculumId&quot;:&quot;610e1a657677146fdd8a2830&quot;,&quot;curriculumTitle&quot;:&quot;Central Board Secondary Education&quot;}]}</stringProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -2090,8 +2125,13 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
                   <stringProp name="Header.value">cors</stringProp>
                 </elementProp>
                 <elementProp name="Referer&#x9;${scheme}" elementType="Header">
+<<<<<<< HEAD
                   <stringProp name="Header.name">Referer</stringProp>
                   <stringProp name="Header.value">${scheme}://${test-url}/</stringProp>
+=======
+                  <stringProp name="Header.name">Referer	${scheme}</stringProp>
+                  <stringProp name="Header.value">//${test-url}/</stringProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
                 </elementProp>
                 <elementProp name="Sec-Fetch-Site" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Site</stringProp>
@@ -2102,8 +2142,13 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
                   <stringProp name="Header.value">en-US,en;q=0.9</stringProp>
                 </elementProp>
                 <elementProp name="Origin&#x9;${scheme}" elementType="Header">
+<<<<<<< HEAD
                   <stringProp name="Header.name">Origin</stringProp>
                   <stringProp name="Header.value">${scheme}://${test-url}</stringProp>
+=======
+                  <stringProp name="Header.name">Origin	${scheme}</stringProp>
+                  <stringProp name="Header.value">//${test-url}</stringProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
                 </elementProp>
                 <elementProp name="Accept" elementType="Header">
                   <stringProp name="Header.name">Accept</stringProp>
@@ -2115,7 +2160,11 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
                 </elementProp>
                 <elementProp name="sec-ch-ua" elementType="Header">
                   <stringProp name="Header.name">sec-ch-ua</stringProp>
+<<<<<<< HEAD
                   <stringProp name="Header.value">&quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;</stringProp>
+=======
+                  <stringProp name="Header.value">&quot;.Not/A)Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;103&quot;, &quot;Chromium&quot;;v=&quot;103&quot;</stringProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
                 </elementProp>
                 <elementProp name="sec-ch-ua-mobile" elementType="Header">
                   <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
@@ -2135,6 +2184,7 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
                 </elementProp>
                 <elementProp name="User-Agent" elementType="Header">
                   <stringProp name="Header.name">User-Agent</stringProp>
+<<<<<<< HEAD
                   <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36</stringProp>
                 </elementProp>
                 <elementProp name="Sec-Fetch-Dest" elementType="Header">
@@ -2224,6 +2274,9 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
                 <elementProp name="User-Agent" elementType="Header">
                   <stringProp name="Header.name">User-Agent</stringProp>
                   <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36</stringProp>
+=======
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36</stringProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
                 </elementProp>
                 <elementProp name="Sec-Fetch-Dest" elementType="Header">
                   <stringProp name="Header.name">Sec-Fetch-Dest</stringProp>
@@ -2234,7 +2287,11 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
             <hashTree/>
           </hashTree>
         </hashTree>
+<<<<<<< HEAD
         <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler ${__threadNum}" enabled="true">
+=======
+        <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="true">
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
           <boolProp name="displayJMeterProperties">false</boolProp>
           <boolProp name="displayJMeterVariables">true</boolProp>
           <boolProp name="displaySystemProperties">false</boolProp>
@@ -2324,7 +2381,11 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
         <boolProp name="ProxyControlGui.detect_graphql_request">true</boolProp>
       </ProxyControl>
       <hashTree>
+<<<<<<< HEAD
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+=======
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -2360,10 +2421,17 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
               <connectTime>true</connectTime>
             </value>
           </objProp>
+<<<<<<< HEAD
           <stringProp name="filename">F:\Git Clone\Performance_Testing\Library Module\librarytest22aug.xml</stringProp>
         </ResultCollector>
         <hashTree/>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Login as Student" enabled="true">
+=======
+          <stringProp name="filename">C:\Users\User\Downloads\librarytest22aug.xml</stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Login as Student" enabled="false">
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
@@ -3427,7 +3495,11 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
             <hashTree/>
           </hashTree>
         </hashTree>
+<<<<<<< HEAD
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Library " enabled="true">
+=======
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Library " enabled="false">
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
@@ -3973,7 +4045,11 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
+<<<<<<< HEAD
                   <stringProp name="Argument.value">{&quot;type&quot;:&quot;SelectSubject&quot;,&quot;datetime&quot;:&quot;2022-08-22T05:35:43.882Z&quot;,&quot;user_id&quot;:&quot;${dc_users_perm_user}&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;${dc_node_id}&quot;,&quot;center&quot;:&quot;${dc_center_id}&quot;,&quot;grade&quot;:&quot;${dc_class_id}&quot;,&quot;section&quot;:&quot;${dc_section_id}&quot;,&quot;start&quot;:&quot;2022-08-22T05:35:43.990Z&quot;,&quot;end&quot;:&quot;2022-08-22T05:35:43.990Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;${dc_book_id}&quot;,&quot;type&quot;:&quot;textbook&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;subject&quot;:&quot;${dc_subjectid}&quot;,&quot;curriculum&quot;:&quot;${dc_curriculum}&quot;,&quot;version&quot;:4}}</stringProp>
+=======
+                  <stringProp name="Argument.value">{&quot;type&quot;:&quot;SelectSubject&quot;,&quot;datetime&quot;:&quot;2022-08-22T05:35:43.882Z&quot;,&quot;user_id&quot;:&quot;${dc_users_perm_user}&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;${dc_node_id}&quot;,&quot;center&quot;:&quot;${dc_center_id}&quot;,&quot;grade&quot;:&quot;${dc_class_id}&quot;,&quot;section&quot;:&quot;${dc_section_id}&quot;,&quot;start&quot;:&quot;2022-08-22T05:35:43.990Z&quot;,&quot;end&quot;:&quot;2022-08-22T05:35:43.990Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;${dc_book_id}&quot;,&quot;type&quot;:&quot;textbook&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;subject&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;curriculum&quot;:&quot;610e1a657677146fdd8a2830&quot;,&quot;version&quot;:4}}</stringProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -4280,7 +4356,11 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
+<<<<<<< HEAD
                   <stringProp name="Argument.value">{&quot;type&quot;:&quot;SelectedChapter&quot;,&quot;datetime&quot;:&quot;2022-08-22T05:35:46.488Z&quot;,&quot;user_id&quot;:&quot;${dc_users_perm_user}&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;${dc_node_id}&quot;,&quot;center&quot;:&quot;${dc_center_id}&quot;,&quot;grade&quot;:&quot;${dc_class_id}&quot;,&quot;section&quot;:&quot;${dc_section_id}&quot;,&quot;start&quot;:&quot;2022-08-22T05:35:46.644Z&quot;,&quot;end&quot;:&quot;2022-08-22T05:35:46.644Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;${dc_book_id}&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;subject&quot;:&quot;${dc_subjectid}&quot;,&quot;chapter&quot;:&quot;${${dc_Def_chapter_id}}&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;curriculum&quot;:&quot;${dc_curriculum}&quot;}}</stringProp>
+=======
+                  <stringProp name="Argument.value">{&quot;type&quot;:&quot;SelectedChapter&quot;,&quot;datetime&quot;:&quot;2022-08-22T05:35:46.488Z&quot;,&quot;user_id&quot;:&quot;${dc_users_perm_user}&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;${dc_node_id}&quot;,&quot;center&quot;:&quot;${dc_center_id}&quot;,&quot;grade&quot;:&quot;${dc_class_id}&quot;,&quot;section&quot;:&quot;${dc_section_id}&quot;,&quot;start&quot;:&quot;2022-08-22T05:35:46.644Z&quot;,&quot;end&quot;:&quot;2022-08-22T05:35:46.644Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;${dc_book_id}&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;subject&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;chapter&quot;:&quot;${${dc_Def_chapter_id}}&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;curriculum&quot;:&quot;610e1a657677146fdd8a2830&quot;}}</stringProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -4755,7 +4835,11 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
+<<<<<<< HEAD
                   <stringProp name="Argument.value">{&quot;type&quot;:&quot;SelectedChapter&quot;,&quot;datetime&quot;:&quot;2022-08-22T05:35:51.921Z&quot;,&quot;user_id&quot;:&quot;${dc_users_perm_user}&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;${dc_node_id}&quot;,&quot;center&quot;:&quot;${dc_center_id}&quot;,&quot;grade&quot;:&quot;${dc_class_id}&quot;,&quot;section&quot;:&quot;${dc_section_id}&quot;,&quot;start&quot;:&quot;2022-08-22T05:35:52.073Z&quot;,&quot;end&quot;:&quot;2022-08-22T05:35:52.073Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;${dc_book_id}&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;subject&quot;:&quot;${dc_subjectid}&quot;,&quot;chapter&quot;:&quot;${dc_chapter_id}&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;curriculum&quot;:&quot;${dc_curriculum}&quot;}}</stringProp>
+=======
+                  <stringProp name="Argument.value">{&quot;type&quot;:&quot;SelectedChapter&quot;,&quot;datetime&quot;:&quot;2022-08-22T05:35:51.921Z&quot;,&quot;user_id&quot;:&quot;${dc_users_perm_user}&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;${dc_node_id}&quot;,&quot;center&quot;:&quot;${dc_center_id}&quot;,&quot;grade&quot;:&quot;${dc_class_id}&quot;,&quot;section&quot;:&quot;${dc_section_id}&quot;,&quot;start&quot;:&quot;2022-08-22T05:35:52.073Z&quot;,&quot;end&quot;:&quot;2022-08-22T05:35:52.073Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;${dc_book_id}&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;subject&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;chapter&quot;:&quot;${dc_chapter_id}&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;curriculum&quot;:&quot;610e1a657677146fdd8a2830&quot;}}</stringProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -6525,7 +6609,11 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
+<<<<<<< HEAD
                   <stringProp name="Argument.value">{&quot;type&quot;:&quot;SectionQuiz&quot;,&quot;datetime&quot;:&quot;2022-08-22T05:36:56.253Z&quot;,&quot;user_id&quot;:&quot;${dc_users_perm_user}&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;${dc_node_id}&quot;,&quot;center&quot;:&quot;${dc_center_id}&quot;,&quot;grade&quot;:&quot;${dc_class_id}&quot;,&quot;section&quot;:&quot;${dc_section_id}&quot;,&quot;start&quot;:&quot;2022-08-22T05:36:56.460Z&quot;,&quot;end&quot;:&quot;2022-08-22T05:36:56.460Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;${dc_book_id}&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;subject&quot;:&quot;${dc_subjectid}&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;chapter&quot;:&quot;${dc_chapter_id}&quot;,&quot;activity&quot;:&quot;&quot;,&quot;assetId&quot;:&quot;${dc_section_quiz_asset_id}&quot;}}</stringProp>
+=======
+                  <stringProp name="Argument.value">{&quot;type&quot;:&quot;SectionQuiz&quot;,&quot;datetime&quot;:&quot;2022-08-22T05:36:56.253Z&quot;,&quot;user_id&quot;:&quot;${dc_users_perm_user}&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;${dc_node_id}&quot;,&quot;center&quot;:&quot;${dc_center_id}&quot;,&quot;grade&quot;:&quot;${dc_class_id}&quot;,&quot;section&quot;:&quot;${dc_section_id}&quot;,&quot;start&quot;:&quot;2022-08-22T05:36:56.460Z&quot;,&quot;end&quot;:&quot;2022-08-22T05:36:56.460Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;${dc_book_id}&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;subject&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;chapter&quot;:&quot;${dc_chapter_id}&quot;,&quot;activity&quot;:&quot;&quot;,&quot;assetId&quot;:&quot;${dc_section_quiz_asset_id}&quot;}}</stringProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -7000,7 +7088,11 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
+<<<<<<< HEAD
                   <stringProp name="Argument.value">{&quot;quiz_data&quot;:[{&quot;asset_guid&quot;:&quot;${dc_section_quiz_asset_id}&quot;,&quot;created_at&quot;:1659070539166,&quot;class_id&quot;:&quot;${dc_class_id}&quot;,&quot;section_id&quot;:&quot;${dc_section_id}&quot;,&quot;institution_id&quot;:&quot;${dc_nodeid}&quot;,&quot;center_id&quot;:&quot;${dc_center_id}&quot;,&quot;username&quot;:&quot;Suchir Priyabroto&quot;,&quot;user_id&quot;:&quot;${dc_userperms}&quot;,&quot;result&quot;:{&quot;custom_data&quot;:&quot;&quot;,&quot;attempt&quot;:[{&quot;id&quot;:&quot;6222237f9844ef396391e854&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Medium&quot;,&quot;blooms&quot;:&quot;Analysing&quot;,&quot;attempted&quot;:true,&quot;correct&quot;:false,&quot;timeSpent&quot;:4.9,&quot;thinkTime&quot;:[{&quot;id&quot;:&quot;B&quot;,&quot;time&quot;:2.1}]},{&quot;id&quot;:&quot;6222237f9844ef396391e853&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Hard&quot;,&quot;blooms&quot;:&quot;Analysing&quot;,&quot;attempted&quot;:false,&quot;correct&quot;:false,&quot;timeSpent&quot;:1,&quot;thinkTime&quot;:[]},{&quot;id&quot;:&quot;6222237f9844ef396391e855&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Easy&quot;,&quot;blooms&quot;:&quot;Understanding&quot;,&quot;attempted&quot;:false,&quot;correct&quot;:false,&quot;timeSpent&quot;:0.8,&quot;thinkTime&quot;:[]},{&quot;id&quot;:&quot;6222237f9844ef396391e852&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Easy&quot;,&quot;blooms&quot;:&quot;Remembering&quot;,&quot;attempted&quot;:false,&quot;correct&quot;:false,&quot;timeSpent&quot;:1.1,&quot;thinkTime&quot;:[]},{&quot;id&quot;:&quot;6222237f9844ef396391e851&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Easy&quot;,&quot;blooms&quot;:&quot;Understanding&quot;,&quot;attempted&quot;:false,&quot;correct&quot;:false,&quot;timeSpent&quot;:1.1,&quot;thinkTime&quot;:[]}],&quot;evaluated_score&quot;:&quot;&quot;,&quot;info&quot;:{&quot;attemptedQuestions&quot;:1,&quot;correctedQuestions&quot;:0,&quot;noOfQuestions&quot;:5},&quot;evaluatedScore&quot;:0},&quot;quizType&quot;:&quot;eosq&quot;,&quot;chapterSectionId&quot;:&quot;${dc_chapterSectionId}&quot;,&quot;chapterId&quot;:&quot;${dc_chapterid2}&quot;,&quot;subjectId&quot;:&quot;${dc_subjectid}&quot;,&quot;subjectTitle&quot;:&quot;English&quot;,&quot;curriculumId&quot;:&quot;${dc_curriculum}&quot;,&quot;curriculumTitle&quot;:&quot;Central Board Secondary Education&quot;}]}</stringProp>
+=======
+                  <stringProp name="Argument.value">{&quot;quiz_data&quot;:[{&quot;asset_guid&quot;:&quot;${dc_section_quiz_asset_id}&quot;,&quot;created_at&quot;:1659070539166,&quot;class_id&quot;:&quot;${dc_class_id}&quot;,&quot;section_id&quot;:&quot;${dc_section_id}&quot;,&quot;institution_id&quot;:&quot;${dc_nodeid}&quot;,&quot;center_id&quot;:&quot;${dc_center_id}&quot;,&quot;username&quot;:&quot;Suchir Priyabroto&quot;,&quot;user_id&quot;:&quot;${dc_userperms}&quot;,&quot;result&quot;:{&quot;custom_data&quot;:&quot;&quot;,&quot;attempt&quot;:[{&quot;id&quot;:&quot;6222237f9844ef396391e854&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Medium&quot;,&quot;blooms&quot;:&quot;Analysing&quot;,&quot;attempted&quot;:true,&quot;correct&quot;:false,&quot;timeSpent&quot;:4.9,&quot;thinkTime&quot;:[{&quot;id&quot;:&quot;B&quot;,&quot;time&quot;:2.1}]},{&quot;id&quot;:&quot;6222237f9844ef396391e853&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Hard&quot;,&quot;blooms&quot;:&quot;Analysing&quot;,&quot;attempted&quot;:false,&quot;correct&quot;:false,&quot;timeSpent&quot;:1,&quot;thinkTime&quot;:[]},{&quot;id&quot;:&quot;6222237f9844ef396391e855&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Easy&quot;,&quot;blooms&quot;:&quot;Understanding&quot;,&quot;attempted&quot;:false,&quot;correct&quot;:false,&quot;timeSpent&quot;:0.8,&quot;thinkTime&quot;:[]},{&quot;id&quot;:&quot;6222237f9844ef396391e852&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Easy&quot;,&quot;blooms&quot;:&quot;Remembering&quot;,&quot;attempted&quot;:false,&quot;correct&quot;:false,&quot;timeSpent&quot;:1.1,&quot;thinkTime&quot;:[]},{&quot;id&quot;:&quot;6222237f9844ef396391e851&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Easy&quot;,&quot;blooms&quot;:&quot;Understanding&quot;,&quot;attempted&quot;:false,&quot;correct&quot;:false,&quot;timeSpent&quot;:1.1,&quot;thinkTime&quot;:[]}],&quot;evaluated_score&quot;:&quot;&quot;,&quot;info&quot;:{&quot;attemptedQuestions&quot;:1,&quot;correctedQuestions&quot;:0,&quot;noOfQuestions&quot;:5},&quot;evaluatedScore&quot;:0},&quot;quizType&quot;:&quot;eosq&quot;,&quot;chapterSectionId&quot;:&quot;6221cbf384ee0b02a94628ff&quot;,&quot;chapterId&quot;:&quot;${dc_chapterid2}&quot;,&quot;subjectId&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;subjectTitle&quot;:&quot;English&quot;,&quot;curriculumId&quot;:&quot;610e1a657677146fdd8a2830&quot;,&quot;curriculumTitle&quot;:&quot;Central Board Secondary Education&quot;}]}</stringProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -7083,7 +7175,11 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
             <hashTree/>
           </hashTree>
         </hashTree>
+<<<<<<< HEAD
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Back and Logout" enabled="true">
+=======
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Back and Logout" enabled="false">
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
@@ -7734,7 +7830,11 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
+<<<<<<< HEAD
                   <stringProp name="Argument.value">{&quot;type&quot;:&quot;SelectedChapter&quot;,&quot;datetime&quot;:&quot;2022-08-22T05:37:48.324Z&quot;,&quot;user_id&quot;:&quot;${dc_users_perm_user}&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;${dc_node_id}&quot;,&quot;center&quot;:&quot;${dc_center_id}&quot;,&quot;grade&quot;:&quot;${dc_class_id}&quot;,&quot;section&quot;:&quot;${dc_section_id}&quot;,&quot;start&quot;:&quot;2022-08-22T05:37:48.484Z&quot;,&quot;end&quot;:&quot;2022-08-22T05:37:48.484Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;${dc_book_id}&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;subject&quot;:&quot;${dc_subjectid}&quot;,&quot;chapter&quot;:&quot;${dc_chapter_id}&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;curriculum&quot;:&quot;${dc_curriculum}&quot;}}</stringProp>
+=======
+                  <stringProp name="Argument.value">{&quot;type&quot;:&quot;SelectedChapter&quot;,&quot;datetime&quot;:&quot;2022-08-22T05:37:48.324Z&quot;,&quot;user_id&quot;:&quot;${dc_users_perm_user}&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;${dc_node_id}&quot;,&quot;center&quot;:&quot;${dc_center_id}&quot;,&quot;grade&quot;:&quot;${dc_class_id}&quot;,&quot;section&quot;:&quot;${dc_section_id}&quot;,&quot;start&quot;:&quot;2022-08-22T05:37:48.484Z&quot;,&quot;end&quot;:&quot;2022-08-22T05:37:48.484Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;${dc_book_id}&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;subject&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;chapter&quot;:&quot;${dc_chapter_id}&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;curriculum&quot;:&quot;610e1a657677146fdd8a2830&quot;}}</stringProp>
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -8939,6 +9039,7 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
             </HeaderManager>
             <hashTree/>
           </hashTree>
+<<<<<<< HEAD
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/-1" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
@@ -10609,6 +10710,8 @@ vars.put(&quot;dc_video_name&quot;,Video[0]);</stringProp>
             </HeaderManager>
             <hashTree/>
           </hashTree>
+=======
+>>>>>>> 404979dd5cb8ca65a0227172d8b5ba4fadd84d75
         </hashTree>
       </hashTree>
     </hashTree>
