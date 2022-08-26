@@ -18683,4 +18683,1375 @@ Sec-Fetch-Dest: image
   <java.net.URL>https://test.onelern.school/images/Timetable.svg</java.net.URL>
 </httpSample>
 
+<httpSample t="410" it="0" lt="409" ct="358" ts="1661499574006" s="true" lb="/-1" rc="200" rm="OK" tn="" dt="text" de="" by="697" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:35 GMT
+Content-Type: text/plain
+Content-Length: 14
+Connection: close
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Set-Cookie: __cf_bm=pHQTE9rXSg_FxtajLZoR1Dn7b_HVC9TPQM7TwYFyzyY-1661499575-0-AZhu4qczqI2TioZo3EppofYIWOnnPLknZHIH/5NNR0SoZT5IeU7r+7Ekmw/QbU8rUZgzZ5EbFREoQW97zP2efQM=; path=/; expires=Fri, 26-Aug-22 08:09:35 GMT; domain=.icanhazip.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 740aea1dd81fb2a9-MAA
+alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: ipv4.icanhazip.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">49.205.115.15
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://ipv4.icanhazip.com/</java.net.URL>
+</httpSample>
+<httpSample t="790" it="0" lt="789" ct="250" ts="1661499574774" s="true" lb="/-2" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1808" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:37 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin,Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Strapi &lt;strapi.io&gt;
+X-Response-Time: 41ms
+Connection: close
+Content-Length: 1363
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaapi.onelern.school
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+    &lt;title&gt;Welcome to your Strapi app&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+    &lt;meta name=&quot;robots&quot; content=&quot;noindex, nofollow&quot;&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Lato:400,700&amp;display=swap&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;style&gt;
+      *{-webkit-box-sizing:border-box;text-decoration:none}body,html{margin:0;padding:0;font-size:62.5%;-webkit-font-smoothing:antialiased}body{font-size:1.3rem;font-family:Lato,Helvetica,Arial,Verdana,sans-serif;background:#fafafb;margin:0;padding:80px 0;color:#333740;line-height:1.8rem}strong{font-weight:700}.wrapper{width:684px;margin:auto}h1{text-align:center}h2{font-size:1.8rem;font-weight:700;margin-bottom:1px}.logo{height:40px;margin-bottom:74px}.informations{position:relative;overflow:hidden;display:flex;justify-content:space-between;width:100%;height:126px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.informations:before{position:absolute;top:0;left:0;content:&apos;&apos;;display:block;width:100%;height:2px;background:#007eff}.environment{display:inline-block;padding:0 10px;height:20px;margin-bottom:36px;background:#e6f0fb;border:1px solid #aed4fb;border-radius:2px;text-transform:uppercase;color:#007eff;font-size:1.2rem;font-weight:700;line-height:20px;letter-spacing:.05rem}.cta{display:inline-block;height:30px;padding:0 15px;margin-top:32px;border-radius:2px;color:#fff;font-weight:700;line-height:28px}.cta i{position:relative;display:inline-block;height:100%;vertical-align:middle;font-size:1rem;margin-right:20px}.cta i:before{position:absolute;top:8px}.cta-primary{background:#007eff}.cta-secondary{background:#6dbb1a}.text-align-right{text-align:right}.lets-started{position:relative;overflow:hidden;width:100%;height:144px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.people-saying-hello{position:absolute;right:30px;bottom:-8px;width:113px;height:70px}.visible{opacity:1!important}.people-saying-hello img{position:absolute;max-width:100%;opacity:0;transition:opacity .2s ease-out}@media only screen and (max-width:768px){.wrapper{width:auto!important;margin:0 20px}.informations{flex-direction:column;height:auto}.environment{width:100%;text-align:center;margin-bottom:18px}.text-align-right{margin-top:18px;text-align:center}.cta{width:100%;text-align:center}.lets-started{height:auto}.people-saying-hello{display:none}}
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body lang=&quot;en&quot;&gt;
+    &lt;section class=&quot;wrapper&quot;&gt;
+      &lt;h1&gt;&lt;img class=&quot;logo&quot; src=&quot;/assets/images/logo_login.png&quot; /&gt;&lt;/h1&gt;
+      
+        &lt;div class=&quot;informations&quot;&gt;
+          &lt;div&gt;
+            &lt;span class=&quot;environment&quot;&gt;production&lt;/span&gt;
+            &lt;p&gt;The server is running successfully.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;text-align-right&quot;&gt;
+            &lt;p&gt;Fri, 26 Aug 2022 07:39:37 GMT&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      
+    &lt;/section&gt;
+
+    
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://qaapi.onelern.school/</java.net.URL>
+</httpSample>
+<httpSample t="283" it="0" lt="282" ct="200" ts="1661499575755" s="true" lb="/global-events-3" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1272" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:37 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Type: application/json; charset=utf-8
+X-Powered-By: Strapi &lt;strapi.io&gt;
+X-Response-Time: 22ms
+Content-Length: 861
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU3ODMzZDg3ZTViNzczYjVlNmQ4MSIsImlhdCI6MTY2MTQ5NjUyOSwiZXhwIjoxNjY0MDg4NTI5fQ.QJ2BzHTp2JoKr9qV4z0ePethoIaIBy2xI0E0s4zwM7Y
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaapi.onelern.school
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 668
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;_id&quot;:&quot;630878b9dda959043c7de3c2&quot;,&quot;type&quot;:&quot;SectionQuiz&quot;,&quot;datetime&quot;:&quot;2022-08-26T07:39:33.659Z&quot;,&quot;user_id&quot;:&quot;624e7833d87e5b773b5e6d81&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;624d5851d87e5b773b5e6cbf&quot;,&quot;center&quot;:&quot;624d5931d87e5b773b5e6cc2&quot;,&quot;grade&quot;:&quot;624d593bd87e5b773b5e6cc6&quot;,&quot;section&quot;:&quot;624d5971d87e5b773b5e6ccb&quot;,&quot;start&quot;:&quot;2022-08-26T07:39:34.700Z&quot;,&quot;end&quot;:&quot;2022-08-26T07:39:34.700Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;616064e79e1fe601b5ee7677&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;subject&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;chapter&quot;:&quot;6221cbf384ee0b02a94628fe&quot;,&quot;activity&quot;:&quot;&quot;,&quot;assetId&quot;:&quot;622896ddbbbe6cd15a107ca7&quot;},&quot;published_at&quot;:&quot;2022-08-26T07:39:37.558Z&quot;,&quot;createdAt&quot;:&quot;2022-08-26T07:39:37.559Z&quot;,&quot;updatedAt&quot;:&quot;2022-08-26T07:39:37.559Z&quot;,&quot;__v&quot;:0,&quot;id&quot;:&quot;630878b9dda959043c7de3c2&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;type&quot;:&quot;SectionQuiz&quot;,&quot;datetime&quot;:&quot;2022-08-26T07:39:33.659Z&quot;,&quot;user_id&quot;:&quot;624e7833d87e5b773b5e6d81&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;624d5851d87e5b773b5e6cbf&quot;,&quot;center&quot;:&quot;624d5931d87e5b773b5e6cc2&quot;,&quot;grade&quot;:&quot;624d593bd87e5b773b5e6cc6&quot;,&quot;section&quot;:&quot;624d5971d87e5b773b5e6ccb&quot;,&quot;start&quot;:&quot;2022-08-26T07:39:34.700Z&quot;,&quot;end&quot;:&quot;2022-08-26T07:39:34.700Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;616064e79e1fe601b5ee7677&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;subject&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;chapter&quot;:&quot;6221cbf384ee0b02a94628fe&quot;,&quot;activity&quot;:&quot;&quot;,&quot;assetId&quot;:&quot;622896ddbbbe6cd15a107ca7&quot;}}</queryString>
+  <java.net.URL>https://qaapi.onelern.school/global-events</java.net.URL>
+</httpSample>
+<httpSample t="265" it="0" lt="264" ct="207" ts="1661499576131" s="true" lb="/-4" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1807" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:37 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin,Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Strapi &lt;strapi.io&gt;
+X-Response-Time: 6ms
+Connection: close
+Content-Length: 1363
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaapi.onelern.school
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+    &lt;title&gt;Welcome to your Strapi app&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+    &lt;meta name=&quot;robots&quot; content=&quot;noindex, nofollow&quot;&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Lato:400,700&amp;display=swap&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;style&gt;
+      *{-webkit-box-sizing:border-box;text-decoration:none}body,html{margin:0;padding:0;font-size:62.5%;-webkit-font-smoothing:antialiased}body{font-size:1.3rem;font-family:Lato,Helvetica,Arial,Verdana,sans-serif;background:#fafafb;margin:0;padding:80px 0;color:#333740;line-height:1.8rem}strong{font-weight:700}.wrapper{width:684px;margin:auto}h1{text-align:center}h2{font-size:1.8rem;font-weight:700;margin-bottom:1px}.logo{height:40px;margin-bottom:74px}.informations{position:relative;overflow:hidden;display:flex;justify-content:space-between;width:100%;height:126px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.informations:before{position:absolute;top:0;left:0;content:&apos;&apos;;display:block;width:100%;height:2px;background:#007eff}.environment{display:inline-block;padding:0 10px;height:20px;margin-bottom:36px;background:#e6f0fb;border:1px solid #aed4fb;border-radius:2px;text-transform:uppercase;color:#007eff;font-size:1.2rem;font-weight:700;line-height:20px;letter-spacing:.05rem}.cta{display:inline-block;height:30px;padding:0 15px;margin-top:32px;border-radius:2px;color:#fff;font-weight:700;line-height:28px}.cta i{position:relative;display:inline-block;height:100%;vertical-align:middle;font-size:1rem;margin-right:20px}.cta i:before{position:absolute;top:8px}.cta-primary{background:#007eff}.cta-secondary{background:#6dbb1a}.text-align-right{text-align:right}.lets-started{position:relative;overflow:hidden;width:100%;height:144px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.people-saying-hello{position:absolute;right:30px;bottom:-8px;width:113px;height:70px}.visible{opacity:1!important}.people-saying-hello img{position:absolute;max-width:100%;opacity:0;transition:opacity .2s ease-out}@media only screen and (max-width:768px){.wrapper{width:auto!important;margin:0 20px}.informations{flex-direction:column;height:auto}.environment{width:100%;text-align:center;margin-bottom:18px}.text-align-right{margin-top:18px;text-align:center}.cta{width:100%;text-align:center}.lets-started{height:auto}.people-saying-hello{display:none}}
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body lang=&quot;en&quot;&gt;
+    &lt;section class=&quot;wrapper&quot;&gt;
+      &lt;h1&gt;&lt;img class=&quot;logo&quot; src=&quot;/assets/images/logo_login.png&quot; /&gt;&lt;/h1&gt;
+      
+        &lt;div class=&quot;informations&quot;&gt;
+          &lt;div&gt;
+            &lt;span class=&quot;environment&quot;&gt;production&lt;/span&gt;
+            &lt;p&gt;The server is running successfully.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;text-align-right&quot;&gt;
+            &lt;p&gt;Fri, 26 Aug 2022 07:39:37 GMT&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      
+    &lt;/section&gt;
+
+    
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://qaapi.onelern.school/</java.net.URL>
+</httpSample>
+<httpSample t="304" it="0" lt="304" ct="206" ts="1661499576480" s="true" lb="/global-events/63087811dda959043c7de3b3-5" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1272" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:38 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Type: application/json; charset=utf-8
+X-Powered-By: Strapi &lt;strapi.io&gt;
+X-Response-Time: 32ms
+Content-Length: 861
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU3ODMzZDg3ZTViNzczYjVlNmQ4MSIsImlhdCI6MTY2MTQ5NjUyOSwiZXhwIjoxNjY0MDg4NTI5fQ.QJ2BzHTp2JoKr9qV4z0ePethoIaIBy2xI0E0s4zwM7Y
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaapi.onelern.school
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 65
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;_id&quot;:&quot;63087811dda959043c7de3b3&quot;,&quot;type&quot;:&quot;SelectSubject&quot;,&quot;datetime&quot;:&quot;2022-08-26T07:36:47.492Z&quot;,&quot;user_id&quot;:&quot;624e7833d87e5b773b5e6d81&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;624d5851d87e5b773b5e6cbf&quot;,&quot;center&quot;:&quot;624d5931d87e5b773b5e6cc2&quot;,&quot;grade&quot;:&quot;624d593bd87e5b773b5e6cc6&quot;,&quot;section&quot;:&quot;624d5971d87e5b773b5e6ccb&quot;,&quot;start&quot;:&quot;2022-08-26T07:36:47.546Z&quot;,&quot;end&quot;:&quot;2022-08-26T07:39:36.049Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;616064e79e1fe601b5ee7677&quot;,&quot;type&quot;:&quot;textbook&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;subject&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;curriculum&quot;:&quot;610e1a657677146fdd8a2830&quot;,&quot;version&quot;:4},&quot;published_at&quot;:&quot;2022-08-26T07:36:49.623Z&quot;,&quot;createdAt&quot;:&quot;2022-08-26T07:36:49.624Z&quot;,&quot;updatedAt&quot;:&quot;2022-08-26T07:39:38.303Z&quot;,&quot;__v&quot;:0,&quot;timespent&quot;:2.8083833333333335,&quot;id&quot;:&quot;63087811dda959043c7de3b3&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&quot;end&quot;:&quot;2022-08-26T07:39:36.049Z&quot;,&quot;timespent&quot;:2.8083833333333335}</queryString>
+  <java.net.URL>https://qaapi.onelern.school/global-events/63087811dda959043c7de3b3</java.net.URL>
+</httpSample>
+<httpSample t="266" it="0" lt="265" ct="189" ts="1661499576871" s="true" lb="/-6" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1807" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:38 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin,Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Strapi &lt;strapi.io&gt;
+X-Response-Time: 6ms
+Connection: close
+Content-Length: 1363
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaapi.onelern.school
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+    &lt;title&gt;Welcome to your Strapi app&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+    &lt;meta name=&quot;robots&quot; content=&quot;noindex, nofollow&quot;&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Lato:400,700&amp;display=swap&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;style&gt;
+      *{-webkit-box-sizing:border-box;text-decoration:none}body,html{margin:0;padding:0;font-size:62.5%;-webkit-font-smoothing:antialiased}body{font-size:1.3rem;font-family:Lato,Helvetica,Arial,Verdana,sans-serif;background:#fafafb;margin:0;padding:80px 0;color:#333740;line-height:1.8rem}strong{font-weight:700}.wrapper{width:684px;margin:auto}h1{text-align:center}h2{font-size:1.8rem;font-weight:700;margin-bottom:1px}.logo{height:40px;margin-bottom:74px}.informations{position:relative;overflow:hidden;display:flex;justify-content:space-between;width:100%;height:126px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.informations:before{position:absolute;top:0;left:0;content:&apos;&apos;;display:block;width:100%;height:2px;background:#007eff}.environment{display:inline-block;padding:0 10px;height:20px;margin-bottom:36px;background:#e6f0fb;border:1px solid #aed4fb;border-radius:2px;text-transform:uppercase;color:#007eff;font-size:1.2rem;font-weight:700;line-height:20px;letter-spacing:.05rem}.cta{display:inline-block;height:30px;padding:0 15px;margin-top:32px;border-radius:2px;color:#fff;font-weight:700;line-height:28px}.cta i{position:relative;display:inline-block;height:100%;vertical-align:middle;font-size:1rem;margin-right:20px}.cta i:before{position:absolute;top:8px}.cta-primary{background:#007eff}.cta-secondary{background:#6dbb1a}.text-align-right{text-align:right}.lets-started{position:relative;overflow:hidden;width:100%;height:144px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.people-saying-hello{position:absolute;right:30px;bottom:-8px;width:113px;height:70px}.visible{opacity:1!important}.people-saying-hello img{position:absolute;max-width:100%;opacity:0;transition:opacity .2s ease-out}@media only screen and (max-width:768px){.wrapper{width:auto!important;margin:0 20px}.informations{flex-direction:column;height:auto}.environment{width:100%;text-align:center;margin-bottom:18px}.text-align-right{margin-top:18px;text-align:center}.cta{width:100%;text-align:center}.lets-started{height:auto}.people-saying-hello{display:none}}
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body lang=&quot;en&quot;&gt;
+    &lt;section class=&quot;wrapper&quot;&gt;
+      &lt;h1&gt;&lt;img class=&quot;logo&quot; src=&quot;/assets/images/logo_login.png&quot; /&gt;&lt;/h1&gt;
+      
+        &lt;div class=&quot;informations&quot;&gt;
+          &lt;div&gt;
+            &lt;span class=&quot;environment&quot;&gt;production&lt;/span&gt;
+            &lt;p&gt;The server is running successfully.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;text-align-right&quot;&gt;
+            &lt;p&gt;Fri, 26 Aug 2022 07:39:38 GMT&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      
+    &lt;/section&gt;
+
+    
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://qaapi.onelern.school/</java.net.URL>
+</httpSample>
+<httpSample t="250" it="0" lt="0" ct="201" ts="1661499577222" s="true" lb="/global-events/63087813dda959043c7de3b5-7" rc="204" rm="No Content" tn="" dt="" de="" by="399" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Date: Fri, 26 Aug 2022 07:39:39 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Max-Age: 31536000
+Access-Control-Allow-Methods: GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS
+Access-Control-Allow-Headers: Content-Type,Authorization,Origin,Accept
+X-Response-Time: 0ms
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Access-Control-Request-Method: PUT
+Accept: */*
+Host: qaapi.onelern.school
+Access-Control-Request-Headers: authorization,content-type
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://qaapi.onelern.school/global-events/63087813dda959043c7de3b5</java.net.URL>
+</httpSample>
+<httpSample t="109" it="0" lt="109" ct="88" ts="1661499577515" s="true" lb="/-8" rc="200" rm="OK" tn="" dt="text" de="" by="697" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:39 GMT
+Content-Type: text/plain
+Content-Length: 14
+Connection: close
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Set-Cookie: __cf_bm=G5NftPz5rpM61cGRhgXKk4rEpmqtQvmVwpVSLH0tgWo-1661499579-0-AfgnGQH0SIUo9MF+/MtI6solqy6cFE+KQphhlmDd2ybbyFiaLfTqyvwl3wlpQfcKKyPigj4huCVAVxT5SxGiqqU=; path=/; expires=Fri, 26-Aug-22 08:09:39 GMT; domain=.icanhazip.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 740aea320b22c930-HYD
+alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: ipv4.icanhazip.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">49.205.115.15
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://ipv4.icanhazip.com/</java.net.URL>
+</httpSample>
+<httpSample t="279" it="0" lt="279" ct="193" ts="1661499577556" s="true" lb="/global-events/63087813dda959043c7de3b5-9" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1296" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:39 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Type: application/json; charset=utf-8
+X-Powered-By: Strapi &lt;strapi.io&gt;
+X-Response-Time: 31ms
+Content-Length: 885
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU3ODMzZDg3ZTViNzczYjVlNmQ4MSIsImlhdCI6MTY2MTQ5NjUyOSwiZXhwIjoxNjY0MDg4NTI5fQ.QJ2BzHTp2JoKr9qV4z0ePethoIaIBy2xI0E0s4zwM7Y
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaapi.onelern.school
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 65
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;_id&quot;:&quot;63087813dda959043c7de3b5&quot;,&quot;type&quot;:&quot;SelectedChapter&quot;,&quot;datetime&quot;:&quot;2022-08-26T07:36:50.036Z&quot;,&quot;user_id&quot;:&quot;624e7833d87e5b773b5e6d81&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;624d5851d87e5b773b5e6cbf&quot;,&quot;center&quot;:&quot;624d5931d87e5b773b5e6cc2&quot;,&quot;grade&quot;:&quot;624d593bd87e5b773b5e6cc6&quot;,&quot;section&quot;:&quot;624d5971d87e5b773b5e6ccb&quot;,&quot;start&quot;:&quot;2022-08-26T07:36:50.077Z&quot;,&quot;end&quot;:&quot;2022-08-26T07:39:36.789Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;616064e79e1fe601b5ee7677&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;subject&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;chapter&quot;:&quot;6221cbf384ee0b02a94628fe&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;curriculum&quot;:&quot;610e1a657677146fdd8a2830&quot;},&quot;published_at&quot;:&quot;2022-08-26T07:36:51.752Z&quot;,&quot;createdAt&quot;:&quot;2022-08-26T07:36:51.754Z&quot;,&quot;updatedAt&quot;:&quot;2022-08-26T07:39:39.363Z&quot;,&quot;__v&quot;:0,&quot;timespent&quot;:2.7785333333333333,&quot;id&quot;:&quot;63087813dda959043c7de3b5&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&quot;end&quot;:&quot;2022-08-26T07:39:36.789Z&quot;,&quot;timespent&quot;:2.7785333333333333}</queryString>
+  <java.net.URL>https://qaapi.onelern.school/global-events/63087813dda959043c7de3b5</java.net.URL>
+</httpSample>
+<httpSample t="264" it="0" lt="263" ct="185" ts="1661499577673" s="true" lb="/-10" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1807" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:39 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin,Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Strapi &lt;strapi.io&gt;
+X-Response-Time: 16ms
+Connection: close
+Content-Length: 1362
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaapi.onelern.school
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+    &lt;title&gt;Welcome to your Strapi app&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+    &lt;meta name=&quot;robots&quot; content=&quot;noindex, nofollow&quot;&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Lato:400,700&amp;display=swap&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;style&gt;
+      *{-webkit-box-sizing:border-box;text-decoration:none}body,html{margin:0;padding:0;font-size:62.5%;-webkit-font-smoothing:antialiased}body{font-size:1.3rem;font-family:Lato,Helvetica,Arial,Verdana,sans-serif;background:#fafafb;margin:0;padding:80px 0;color:#333740;line-height:1.8rem}strong{font-weight:700}.wrapper{width:684px;margin:auto}h1{text-align:center}h2{font-size:1.8rem;font-weight:700;margin-bottom:1px}.logo{height:40px;margin-bottom:74px}.informations{position:relative;overflow:hidden;display:flex;justify-content:space-between;width:100%;height:126px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.informations:before{position:absolute;top:0;left:0;content:&apos;&apos;;display:block;width:100%;height:2px;background:#007eff}.environment{display:inline-block;padding:0 10px;height:20px;margin-bottom:36px;background:#e6f0fb;border:1px solid #aed4fb;border-radius:2px;text-transform:uppercase;color:#007eff;font-size:1.2rem;font-weight:700;line-height:20px;letter-spacing:.05rem}.cta{display:inline-block;height:30px;padding:0 15px;margin-top:32px;border-radius:2px;color:#fff;font-weight:700;line-height:28px}.cta i{position:relative;display:inline-block;height:100%;vertical-align:middle;font-size:1rem;margin-right:20px}.cta i:before{position:absolute;top:8px}.cta-primary{background:#007eff}.cta-secondary{background:#6dbb1a}.text-align-right{text-align:right}.lets-started{position:relative;overflow:hidden;width:100%;height:144px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.people-saying-hello{position:absolute;right:30px;bottom:-8px;width:113px;height:70px}.visible{opacity:1!important}.people-saying-hello img{position:absolute;max-width:100%;opacity:0;transition:opacity .2s ease-out}@media only screen and (max-width:768px){.wrapper{width:auto!important;margin:0 20px}.informations{flex-direction:column;height:auto}.environment{width:100%;text-align:center;margin-bottom:18px}.text-align-right{margin-top:18px;text-align:center}.cta{width:100%;text-align:center}.lets-started{height:auto}.people-saying-hello{display:none}}
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body lang=&quot;en&quot;&gt;
+    &lt;section class=&quot;wrapper&quot;&gt;
+      &lt;h1&gt;&lt;img class=&quot;logo&quot; src=&quot;/assets/images/logo_login.png&quot; /&gt;&lt;/h1&gt;
+      
+        &lt;div class=&quot;informations&quot;&gt;
+          &lt;div&gt;
+            &lt;span class=&quot;environment&quot;&gt;production&lt;/span&gt;
+            &lt;p&gt;The server is running successfully.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;text-align-right&quot;&gt;
+            &lt;p&gt;Fri, 26 Aug 2022 07:39:39 GMT&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      
+    &lt;/section&gt;
+
+    
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://qaapi.onelern.school/</java.net.URL>
+</httpSample>
+<httpSample t="308" it="0" lt="307" ct="227" ts="1661499577982" s="true" lb="/global-events-11" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1272" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:39 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Type: application/json; charset=utf-8
+X-Powered-By: Strapi &lt;strapi.io&gt;
+X-Response-Time: 27ms
+Content-Length: 861
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU3ODMzZDg3ZTViNzczYjVlNmQ4MSIsImlhdCI6MTY2MTQ5NjUyOSwiZXhwIjoxNjY0MDg4NTI5fQ.QJ2BzHTp2JoKr9qV4z0ePethoIaIBy2xI0E0s4zwM7Y
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaapi.onelern.school
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 668
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;_id&quot;:&quot;630878bbdda959043c7de3c3&quot;,&quot;type&quot;:&quot;SectionQuiz&quot;,&quot;datetime&quot;:&quot;2022-08-26T07:39:37.456Z&quot;,&quot;user_id&quot;:&quot;624e7833d87e5b773b5e6d81&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;624d5851d87e5b773b5e6cbf&quot;,&quot;center&quot;:&quot;624d5931d87e5b773b5e6cc2&quot;,&quot;grade&quot;:&quot;624d593bd87e5b773b5e6cc6&quot;,&quot;section&quot;:&quot;624d5971d87e5b773b5e6ccb&quot;,&quot;start&quot;:&quot;2022-08-26T07:39:37.631Z&quot;,&quot;end&quot;:&quot;2022-08-26T07:39:37.631Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;616064e79e1fe601b5ee7677&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;subject&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;chapter&quot;:&quot;6221cbf384ee0b02a94628fe&quot;,&quot;activity&quot;:&quot;&quot;,&quot;assetId&quot;:&quot;622896ddbbbe6cd15a107ca7&quot;},&quot;published_at&quot;:&quot;2022-08-26T07:39:39.813Z&quot;,&quot;createdAt&quot;:&quot;2022-08-26T07:39:39.814Z&quot;,&quot;updatedAt&quot;:&quot;2022-08-26T07:39:39.814Z&quot;,&quot;__v&quot;:0,&quot;id&quot;:&quot;630878bbdda959043c7de3c3&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;type&quot;:&quot;SectionQuiz&quot;,&quot;datetime&quot;:&quot;2022-08-26T07:39:37.456Z&quot;,&quot;user_id&quot;:&quot;624e7833d87e5b773b5e6d81&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;624d5851d87e5b773b5e6cbf&quot;,&quot;center&quot;:&quot;624d5931d87e5b773b5e6cc2&quot;,&quot;grade&quot;:&quot;624d593bd87e5b773b5e6cc6&quot;,&quot;section&quot;:&quot;624d5971d87e5b773b5e6ccb&quot;,&quot;start&quot;:&quot;2022-08-26T07:39:37.631Z&quot;,&quot;end&quot;:&quot;2022-08-26T07:39:37.631Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;616064e79e1fe601b5ee7677&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;subject&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;chapter&quot;:&quot;6221cbf384ee0b02a94628fe&quot;,&quot;activity&quot;:&quot;&quot;,&quot;assetId&quot;:&quot;622896ddbbbe6cd15a107ca7&quot;}}</queryString>
+  <java.net.URL>https://qaapi.onelern.school/global-events</java.net.URL>
+</httpSample>
+<httpSample t="254" it="0" lt="253" ct="197" ts="1661499578366" s="true" lb="/-12" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1807" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:40 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin,Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Strapi &lt;strapi.io&gt;
+X-Response-Time: 7ms
+Connection: close
+Content-Length: 1363
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaapi.onelern.school
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+    &lt;title&gt;Welcome to your Strapi app&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+    &lt;meta name=&quot;robots&quot; content=&quot;noindex, nofollow&quot;&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Lato:400,700&amp;display=swap&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;style&gt;
+      *{-webkit-box-sizing:border-box;text-decoration:none}body,html{margin:0;padding:0;font-size:62.5%;-webkit-font-smoothing:antialiased}body{font-size:1.3rem;font-family:Lato,Helvetica,Arial,Verdana,sans-serif;background:#fafafb;margin:0;padding:80px 0;color:#333740;line-height:1.8rem}strong{font-weight:700}.wrapper{width:684px;margin:auto}h1{text-align:center}h2{font-size:1.8rem;font-weight:700;margin-bottom:1px}.logo{height:40px;margin-bottom:74px}.informations{position:relative;overflow:hidden;display:flex;justify-content:space-between;width:100%;height:126px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.informations:before{position:absolute;top:0;left:0;content:&apos;&apos;;display:block;width:100%;height:2px;background:#007eff}.environment{display:inline-block;padding:0 10px;height:20px;margin-bottom:36px;background:#e6f0fb;border:1px solid #aed4fb;border-radius:2px;text-transform:uppercase;color:#007eff;font-size:1.2rem;font-weight:700;line-height:20px;letter-spacing:.05rem}.cta{display:inline-block;height:30px;padding:0 15px;margin-top:32px;border-radius:2px;color:#fff;font-weight:700;line-height:28px}.cta i{position:relative;display:inline-block;height:100%;vertical-align:middle;font-size:1rem;margin-right:20px}.cta i:before{position:absolute;top:8px}.cta-primary{background:#007eff}.cta-secondary{background:#6dbb1a}.text-align-right{text-align:right}.lets-started{position:relative;overflow:hidden;width:100%;height:144px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.people-saying-hello{position:absolute;right:30px;bottom:-8px;width:113px;height:70px}.visible{opacity:1!important}.people-saying-hello img{position:absolute;max-width:100%;opacity:0;transition:opacity .2s ease-out}@media only screen and (max-width:768px){.wrapper{width:auto!important;margin:0 20px}.informations{flex-direction:column;height:auto}.environment{width:100%;text-align:center;margin-bottom:18px}.text-align-right{margin-top:18px;text-align:center}.cta{width:100%;text-align:center}.lets-started{height:auto}.people-saying-hello{display:none}}
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body lang=&quot;en&quot;&gt;
+    &lt;section class=&quot;wrapper&quot;&gt;
+      &lt;h1&gt;&lt;img class=&quot;logo&quot; src=&quot;/assets/images/logo_login.png&quot; /&gt;&lt;/h1&gt;
+      
+        &lt;div class=&quot;informations&quot;&gt;
+          &lt;div&gt;
+            &lt;span class=&quot;environment&quot;&gt;production&lt;/span&gt;
+            &lt;p&gt;The server is running successfully.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;text-align-right&quot;&gt;
+            &lt;p&gt;Fri, 26 Aug 2022 07:39:40 GMT&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      
+    &lt;/section&gt;
+
+    
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://qaapi.onelern.school/</java.net.URL>
+</httpSample>
+<httpSample t="293" it="0" lt="292" ct="199" ts="1661499578705" s="true" lb="/global-events/63087811dda959043c7de3b3-13" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1261" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:40 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Type: application/json; charset=utf-8
+X-Powered-By: Strapi &lt;strapi.io&gt;
+X-Response-Time: 38ms
+Content-Length: 850
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU3ODMzZDg3ZTViNzczYjVlNmQ4MSIsImlhdCI6MTY2MTQ5NjUyOSwiZXhwIjoxNjY0MDg4NTI5fQ.QJ2BzHTp2JoKr9qV4z0ePethoIaIBy2xI0E0s4zwM7Y
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaapi.onelern.school
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 54
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;_id&quot;:&quot;63087811dda959043c7de3b3&quot;,&quot;type&quot;:&quot;SelectSubject&quot;,&quot;datetime&quot;:&quot;2022-08-26T07:36:47.492Z&quot;,&quot;user_id&quot;:&quot;624e7833d87e5b773b5e6d81&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;624d5851d87e5b773b5e6cbf&quot;,&quot;center&quot;:&quot;624d5931d87e5b773b5e6cc2&quot;,&quot;grade&quot;:&quot;624d593bd87e5b773b5e6cc6&quot;,&quot;section&quot;:&quot;624d5971d87e5b773b5e6ccb&quot;,&quot;start&quot;:&quot;2022-08-26T07:36:47.546Z&quot;,&quot;end&quot;:&quot;2022-08-26T07:39:38.297Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;616064e79e1fe601b5ee7677&quot;,&quot;type&quot;:&quot;textbook&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;subject&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;curriculum&quot;:&quot;610e1a657677146fdd8a2830&quot;,&quot;version&quot;:4},&quot;published_at&quot;:&quot;2022-08-26T07:36:49.623Z&quot;,&quot;createdAt&quot;:&quot;2022-08-26T07:36:49.624Z&quot;,&quot;updatedAt&quot;:&quot;2022-08-26T07:39:40.522Z&quot;,&quot;__v&quot;:0,&quot;timespent&quot;:2.84585,&quot;id&quot;:&quot;63087811dda959043c7de3b3&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&quot;end&quot;:&quot;2022-08-26T07:39:38.297Z&quot;,&quot;timespent&quot;:2.84585}</queryString>
+  <java.net.URL>https://qaapi.onelern.school/global-events/63087811dda959043c7de3b3</java.net.URL>
+</httpSample>
+<httpSample t="568" it="0" lt="528" ct="445" ts="1661499579107" s="true" lb="/-14" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1807" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:41 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin,Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Strapi &lt;strapi.io&gt;
+X-Response-Time: 7ms
+Connection: close
+Content-Length: 1363
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaapi.onelern.school
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+    &lt;title&gt;Welcome to your Strapi app&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+    &lt;meta name=&quot;robots&quot; content=&quot;noindex, nofollow&quot;&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Lato:400,700&amp;display=swap&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;style&gt;
+      *{-webkit-box-sizing:border-box;text-decoration:none}body,html{margin:0;padding:0;font-size:62.5%;-webkit-font-smoothing:antialiased}body{font-size:1.3rem;font-family:Lato,Helvetica,Arial,Verdana,sans-serif;background:#fafafb;margin:0;padding:80px 0;color:#333740;line-height:1.8rem}strong{font-weight:700}.wrapper{width:684px;margin:auto}h1{text-align:center}h2{font-size:1.8rem;font-weight:700;margin-bottom:1px}.logo{height:40px;margin-bottom:74px}.informations{position:relative;overflow:hidden;display:flex;justify-content:space-between;width:100%;height:126px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.informations:before{position:absolute;top:0;left:0;content:&apos;&apos;;display:block;width:100%;height:2px;background:#007eff}.environment{display:inline-block;padding:0 10px;height:20px;margin-bottom:36px;background:#e6f0fb;border:1px solid #aed4fb;border-radius:2px;text-transform:uppercase;color:#007eff;font-size:1.2rem;font-weight:700;line-height:20px;letter-spacing:.05rem}.cta{display:inline-block;height:30px;padding:0 15px;margin-top:32px;border-radius:2px;color:#fff;font-weight:700;line-height:28px}.cta i{position:relative;display:inline-block;height:100%;vertical-align:middle;font-size:1rem;margin-right:20px}.cta i:before{position:absolute;top:8px}.cta-primary{background:#007eff}.cta-secondary{background:#6dbb1a}.text-align-right{text-align:right}.lets-started{position:relative;overflow:hidden;width:100%;height:144px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.people-saying-hello{position:absolute;right:30px;bottom:-8px;width:113px;height:70px}.visible{opacity:1!important}.people-saying-hello img{position:absolute;max-width:100%;opacity:0;transition:opacity .2s ease-out}@media only screen and (max-width:768px){.wrapper{width:auto!important;margin:0 20px}.informations{flex-direction:column;height:auto}.environment{width:100%;text-align:center;margin-bottom:18px}.text-align-right{margin-top:18px;text-align:center}.cta{width:100%;text-align:center}.lets-started{height:auto}.people-saying-hello{display:none}}
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body lang=&quot;en&quot;&gt;
+    &lt;section class=&quot;wrapper&quot;&gt;
+      &lt;h1&gt;&lt;img class=&quot;logo&quot; src=&quot;/assets/images/logo_login.png&quot; /&gt;&lt;/h1&gt;
+      
+        &lt;div class=&quot;informations&quot;&gt;
+          &lt;div&gt;
+            &lt;span class=&quot;environment&quot;&gt;production&lt;/span&gt;
+            &lt;p&gt;The server is running successfully.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;text-align-right&quot;&gt;
+            &lt;p&gt;Fri, 26 Aug 2022 07:39:41 GMT&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      
+    &lt;/section&gt;
+
+    
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://qaapi.onelern.school/</java.net.URL>
+</httpSample>
+<httpSample t="613" it="0" lt="610" ct="443" ts="1661499579109" s="true" lb="/v4/books/616064e79e1fe601b5ee7677/assets/622896ddbbbe6cd15a107ca7/index.html-15" rc="200" rm="OK" tn="" dt="text" de="" by="4031" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:41 GMT
+Server: Apache/2.4.29 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: middleware.onelern.school
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: iframe
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html class=&quot;overFlowHidden&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;EOSQ&lt;/title&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; charset=&quot;UTF-8&quot;&gt;
+
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/materialize.min.css&quot;&gt;
+&lt;!-- &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/zoom.css&quot;&gt; --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML-full&amp;amp;latest&quot;&gt;&lt;/script&gt;
+ 
+   &lt;!--  &lt;script type=&quot;text/javascript&quot; async src=&quot;MathJax/MathJax.js?config=TeX-AMS_CHTML-full&quot;&gt;&lt;/script&gt; --&gt;
+&lt;script&gt;
+    MathJax.Hub.Config({
+  jax: [&quot;input/TeX&quot;,&quot;input/MathML&quot;,&quot;input/AsciiMath&quot;,&quot;output/CommonHTML&quot;],
+    extensions: [,&quot;cancel.js&quot;,&quot;CHTML-preview.js&quot;,&quot;fast-preview.js&quot;,&quot;FontWarnings.js&quot;,&quot;HelpDialog.js&quot;,&quot;jsMath2jax.js&quot;,&quot;MatchWebFonts.js&quot;,&quot;MathEvents.js&quot;,&quot;Safe.js&quot;,&quot;toMathML.js&quot;,&quot;tex2jax.js&quot;,&quot;mml2jax.js&quot;,&quot;asciimath2jax.js&quot;,&quot;MathMenu.js&quot;,&quot;MathZoom.js&quot;,&quot;AssistiveMML.js&quot;, &quot;a11y/accessibility-menu.js&quot;],
+  TeX: {
+    extensions: [&quot;action.js&quot;,&quot;AMScd.js&quot;,&quot;AMSmath.js&quot;,&quot;AMSsymbols.js&quot;,&quot;autobold.js&quot;,&quot;autoload-all.js&quot;,&quot;bbox.js&quot;,&quot;begingroup.js&quot;,&quot;boldsymbol.js&quot;,&quot;cancel.js&quot;,&quot;color.js&quot;,&quot;enclose.js&quot;,&quot;extpfeil.js&quot;,&quot;HTML.js&quot;,&quot;mathchoice.js&quot;,&quot;mediawiki-texvc.js&quot;,&quot;mhchem.js&quot;,&quot;newcommand.js&quot;,&quot;noErrors.js&quot;,&quot;noUndefined.js&quot;,&quot;unicode.js&quot;,&quot;verb.js&quot;]
+
+  }
+});
+  
+&lt;/script&gt;
+&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+MathJax.Hub.Register.StartupHook(&quot;TeX Jax Ready&quot;,function () {
+  MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{
+    cancel: [&quot;Extension&quot;,&quot;cancel&quot;],
+    bcancel: [&quot;Extension&quot;,&quot;cancel&quot;],
+    xcancel: [&quot;Extension&quot;,&quot;cancel&quot;],
+    cancelto: [&quot;Extension&quot;,&quot;cancel&quot;]
+  });
+});
+&lt;/script&gt;
+&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+  MathJax.Hub.Config({
+    extensions: [&quot;tex2jax.js&quot;],
+    jax: [&quot;input/TeX&quot;, &quot;output/HTML-CSS&quot;],
+    tex2jax: {
+      inlineMath: [ [&apos;$&apos;,&apos;$&apos;], [&quot;\\(&quot;,&quot;\\)&quot;]  ],
+      displayMath: [ [&apos;$$&apos;,&apos;$$&apos;], [&quot;\\[&quot;,&quot;\\]&quot;]],
+      processEscapes: true
+    },
+    &quot;HTML-CSS&quot;: { fonts: [&quot;TeX&quot;] },
+    TeX: {
+    Macros: {
+      RR: &quot;{\\bf R}&quot;,
+      bold: [&quot;{\\bf #1}&quot;,1]
+    }
+  },
+   displayAlign: &apos;left&apos;
+  });
+&lt;/script&gt;
+
+&lt;/head&gt;
+
+&lt;body onresize=&quot;callResize()&quot;&gt;
+  &lt;div class=&quot;container-fluid container-main&quot;&gt;
+    &lt;div class=&quot;show-submit&quot;&gt;
+        &lt;p class=&quot;form-text&quot;&gt;Enter 4 digit passcode&lt;/p&gt;
+        &lt;form action=&quot;&quot; class=&quot;form-input&quot;&gt;
+            &lt;input type=&quot;text&quot; name=&quot;scan_code&quot; placeholder=&quot;&quot; id=&quot;scan_code&quot; class=&quot;input-box input-box1&quot; maxlength=&quot;1&quot; autofocus&gt; 
+            &lt;input type=&quot;text&quot; name=&quot;scan_code2&quot; placeholder=&quot;&quot; id=&quot;scan_code2&quot; class=&quot;input-box input-box2&quot; maxlength=&quot;1&quot;&gt; 
+            &lt;input type=&quot;text&quot; name=&quot;scan_code3&quot; placeholder=&quot;&quot; id=&quot;scan_code3&quot; class=&quot;input-box input-box3&quot; maxlength=&quot;1&quot;&gt; 
+            &lt;input type=&quot;text&quot; name=&quot;scan_code4&quot; placeholder=&quot;&quot; id=&quot;scan_code4&quot; class=&quot;input-box input-box4&quot; maxlength=&quot;1&quot;&gt; 
+        &lt;/form&gt;
+        &lt;p class=&quot;error-msg&quot;&gt;&lt;!-- You have entered incorrect passcode --&gt;&lt;/p&gt;
+        &lt;button type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Submit&quot; id=&quot;submit_button&quot; class=&quot;disable-button submit-btn&quot;&gt;Unlock&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;div class=&quot;loader&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;quiz-container&quot;&gt;
+        &lt;div class=&quot;quiz-title&quot;&gt;
+            &lt;a href=&quot;#no-instruction-modal&quot;&gt;&lt;img class=&quot;info-icon&quot; onclick=&quot;clickInstruction()&quot; src=&quot;./images/info.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;
+            &lt;!-- &lt;a hcallResizeref=&quot;#no-instruction-modal&quot;&gt;&lt;img class=&quot;info-icon&quot; onclick=&quot;clickInstruction()&quot; src=&quot;./images/info.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt; --&gt;
+            &lt;h1 class=&quot;quiz-title-text&quot;&gt;11.2 Structure of a Seed&lt;/h1&gt;
+            &lt;span class=&quot;quiz-subject&quot; style=&quot;display: none&quot;&gt;Biology&lt;/span&gt;
+            &lt;span class=&quot;quiz-chapter&quot; style=&quot;display: none&quot;&gt;11. Growth&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;header&gt;
+            &lt;div class=&quot;menu&quot;&gt;
+               &lt;section class=&quot;variable&quot;&gt;
+                    &lt;ul id=&quot;menu-draggable&quot;&gt;&lt;/ul&gt;
+                &lt;/section&gt;
+           &lt;/div&gt; 
+            
+        &lt;/header&gt;
+        &lt;div id=&quot;quiz-box&quot;&gt;
+            
+            &lt;div class=&quot;quiz-content&quot;&gt;
+               
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+          &lt;button class=&quot;waves-effect waves-light btn modal-trigger&quot; id=&quot;instruction-btn&quot; href=&quot;#instruction-modal&quot;&gt;Instruction&lt;/button&gt;
+          &lt;!-- result part --&gt;
+            &lt;div class=&quot;performance-report-container&quot;&gt;
+                &lt;div class=&quot;row&quot;&gt;
+                    &lt;div class=&quot;performence-heading&quot;&gt;
+                        
+                        &lt;div class=&quot;performece-score col s3 m4&quot;&gt;
+                            &lt;p class=&quot;performece-score-text&quot;&gt;Your score is&lt;/p&gt;
+                            &lt;p class=&quot;performece-score-count&quot;&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;performence-content col s6 offset-s3 m5 offset-m3&quot;&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;types-difficulty-question&quot;&gt;
+                &lt;div class=&quot;graph-bar-container&quot;&gt;
+                    &lt;div class=&quot;graph-bar&quot;&gt;
+                        &lt;div class=&quot;row&quot;&gt;
+                            &lt;div class=&quot;col s6&quot;&gt;
+                                &lt;div class=&quot;graph-bar-block&quot;&gt;
+                                    &lt;h4&gt;TYPES OF QUESTIONS&lt;/h4&gt;
+                                    &lt;small&gt;See your success rate with each question type&lt;/small&gt;
+                                    &lt;div class=&quot;chart-container&quot;&gt;
+                                        &lt;div class=&quot;row&quot;&gt;
+                                            &lt;div class=&quot;doughnut-chart-container col s12 m12&quot;&gt;
+
+                                                &lt;div id=&quot;bar-chart&quot;&gt;&lt;/div&gt;
+                                                &lt;p class=&quot;center-align graph-title-text&quot;&gt;
+                                                    Number of questions
+                                                &lt;/p&gt;
+                                                &lt;!-- &lt;div id=&quot;pieChart&quot;&gt;&lt;/div&gt;
+                                                &lt;div class=&quot;totalQuestionsCount&quot;&gt;&lt;/div&gt; --&gt;
+                                            &lt;/div&gt;
+                                            &lt;!-- &lt;div class=&quot;chart-bottom-block col s6 m6&quot;&gt;
+                                                &lt;div class=&quot;row&quot;&gt;
+                                                    
+                                                &lt;/div&gt;                                                       
+                                            &lt;/div&gt; --&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;col s6&quot;&gt;
+                                &lt;div class=&quot;dificulty-box&quot;&gt;
+                                    &lt;h4&gt;DIFFICULTY OF QUESTIONS&lt;/h4&gt;
+                                    &lt;small&gt;See how you fare at various difficulties&lt;/small&gt;
+                                    &lt;div class=&quot;container-fluid&quot;&gt;
+                                        &lt;div class=&quot;row&quot;&gt;
+                                            &lt;div class=&quot;col s12&quot;&gt;
+                                                &lt;div class=&quot;progress&quot;&gt;
+                                                    &lt;div class=&quot;progress-bar progress-bar-easy&quot;&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class=&quot;progress-easy&quot;&gt;
+                                                    &lt;span class=&quot;progress-text-left&quot;&gt;Easy&lt;/span&gt;
+                                                    &lt;span class=&quot;progress-text-right right-align&quot;&gt;&lt;span class=&quot;easy-question-atempted&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class=&quot;progress&quot;&gt;
+                                                    &lt;div class=&quot;progress-bar progress-bar-medium&quot;&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class=&quot;progress-medium&quot;&gt;
+                                                    &lt;span class=&quot;progress-text-left&quot;&gt;Medium&lt;/span&gt;
+                                                    &lt;span class=&quot;progress-text-right&quot;&gt;&lt;span class=&quot;medium-question-atempted&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class=&quot;progress progress-last&quot;&gt;
+                                                    &lt;div class=&quot;progress-bar progress-bar-hard&quot;&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class=&quot;progress-medium&quot;&gt;
+                                                    &lt;span class=&quot;progress-text-left&quot;&gt;Hard&lt;/span&gt;
+                                                    &lt;span class=&quot;progress-text-right&quot;&gt;&lt;span class=&quot;hard-question-atempted&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;skills-container&quot;&gt;
+                &lt;div class=&quot;skills-block-heading&quot;&gt;
+                   &lt;!-- &lt;p class=&quot;skills-heading&quot;&gt;Skills&lt;/p&gt;  --&gt;
+                   &lt;!-- &lt;p class=&quot;skills-sub-heading&quot;&gt;See how accurate you are in each skill&lt;/p&gt; --&gt;
+                &lt;/div&gt; 
+                &lt;div class=&quot;result-block&quot;&gt;
+                    
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+		&lt;!--$$$$$$$$$$$$ footer part$$$$$$$$$$$$$$$--&gt;
+		&lt;footer class=&quot;footer&quot;&gt;
+			&lt;div class=&quot;hint-container modal-trigger&quot; href=&quot;#hint-modal&quot; onclick=&quot;openHintText()&quot;&gt;
+				&lt;img src=&quot;images/hint.png&quot; alt=&quot;&quot;&gt; 
+			&lt;/div&gt;
+			&lt;div class=&quot;footer-content&quot;&gt;
+				 &lt;div class=&quot;row&quot;&gt;
+                    &lt;div class=&quot;col s12&quot;&gt;
+        				&lt;div class=&quot;previous col s3&quot;&gt;
+                          &lt;button class=&quot;previous-btn&quot; onclick=&quot;previousButtonClicked()&quot;&gt;
+                              &lt;img src=&quot;images/back-arrow.png&quot; alt=&quot;&quot;&gt;
+                              &lt;span class=&quot;previous-text&quot;&gt;Prev&lt;/span&gt;
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;col s3 right-align&quot;&gt;
+                            &lt;button class=&quot;answers&quot; onclick=&quot;answerAndBackToReport(1)&quot;&gt;Review Answers&lt;/button&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;col s3 left-align&quot;&gt;
+                            &lt;button class=&quot;start-again&quot; onclick=&quot;startAgain()&quot;&gt;Start again&lt;/button&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;next col s3&quot;&gt;
+                          &lt;button class=&quot;next-btn&quot; onclick=&quot;nextButtonClicked()&quot;&gt;
+                              &lt;img src=&quot;images/forword-arrow.png&quot; alt=&quot;&quot;&gt;
+                              &lt;span class=&quot;next-text&quot;&gt;Next&lt;/span&gt;
+                          &lt;/button&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Modal Structure --&gt;
+  &lt;div id=&quot;no-instruction-modal&quot; class=&quot;modal bottom-sheet no-instruction-modal&quot;&gt;
+    &lt;div class=&quot;modal-content-header-block&quot;&gt;
+        &lt;div class= &quot;&quot;&gt;
+            &lt;img src=&quot;images/modal-info.png&quot; alt=&quot;&quot; class=&quot;modal-info-icon left&quot;&gt;
+            &lt;p class=&quot;modal-header-text left&quot;&gt;Instructions and references &lt;!-- for question no 8 --&gt;&lt;/p&gt;
+            &lt;img src=&quot;images/close.png&quot; alt=&quot;&quot; height=&quot;30px&quot; width=&quot;30px&quot; class=&quot;right modal-close&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;img class=&quot;no-instuction-img&quot; src=&quot;images/no-instruction.png&quot; alt=&quot;&quot;&gt;
+        &lt;p class=&quot;no-instruction-content&quot;&gt;There are no Instructions or References for this question.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;div id=&quot;hint-modal&quot; class=&quot;modal bottom-sheet hint-modal-block&quot;&gt;
+    &lt;div class=&quot;hint-content-header&quot;&gt;
+        &lt;p class=&quot;hint-heading left&quot;&gt;Hint&lt;/p&gt;
+        &lt;img class=&quot;close-icon modal-close right&quot; src=&quot;images/close.png&quot; alt=&quot;&quot; height=&quot;30px&quot; width=&quot;30px&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;modal-content hint-content&quot;&gt;
+        
+      &lt;p class=&quot;hint-text&quot;&gt;Since there is no frictional force between the cars and the road, the net force in the x direction is equal to the total applied force on the cars.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--$$$$$$$$$$$$$$$$ instruction-modal-Modal Structure $$$$$$$$$$$$$$$$$$$$$$$$--&gt;
+&lt;div id=&quot;instruction-modal&quot; class=&quot;modal bottom-sheet instruction-modal&quot;&gt;
+    &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;div class=&quot;modal-content-header-block&quot;&gt;
+            &lt;div class=&quot;&quot;&gt;
+                &lt;img src=&quot;images/modal-info.png&quot; alt=&quot;&quot; class=&quot;modal-info-icon left&quot;&gt;
+                &lt;p class=&quot;modal-header-text left&quot;&gt;Instructions and references &lt;!-- for question no 8 --&gt;&lt;/p&gt;
+                &lt;img src=&quot;images/close.png&quot; alt=&quot;&quot; height=&quot;30px&quot; width=&quot;30px&quot; class=&quot;right modal-close&quot;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;instruction-modal-block&quot;&gt;
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col s12&quot;&gt;
+                    &lt;ul class=&quot;tabs&quot;&gt; 
+                        &lt;li class=&quot;tab col s6&quot;&gt;&lt;a id=&quot;instruction-id&quot; onclick=&quot;showInstruction(this)&quot; &gt;Instruction&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;tab col s6&quot;&gt;&lt;a id=&quot;reference-id&quot; onclick=&quot;showReference(this)&quot; &gt;Reference&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;instruction-modal-content&quot;&gt;
+                    &lt;div id=&quot;instruction-tab&quot; class=&quot;col s12&quot;&gt;
+                        &lt;h3 class=&quot;instruction-heading tab-content&quot;&gt;&lt;/h3&gt;
+                        &lt;div class=&quot;instruction-content&quot;&gt;
+                            &lt;p class=&quot;tab-content&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div id=&quot;reference-tab&quot; class=&quot;col s12&quot;&gt;
+                        &lt;h3 class=&quot;reference-heading tab-content&quot;&gt;&lt;/h3&gt;
+                        &lt;div class=&quot;reference-content&quot;&gt;
+                            &lt;p class=&quot;tab-content&quot;&gt;
+                                A 1 250 kg car was using a tow-rope to tow another car with a mass of 750 kg. The engine of the first car applied a total pushing force of 2 500 N. Ignore friction between the cars and the road, and ignore the mass of the tow-rope.
+                            &lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Modal Structure --&gt;
+&lt;div class=&quot;patch-back&quot;&gt;
+    &lt;div class=&quot;close-icon&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;zoom-container&quot;&gt;
+    &lt;img src=&quot;&quot; class=&quot;zoom-img&quot; /&gt;
+&lt;/div&gt;
+&lt;script src=&quot;js/jquery-v3.4.1.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;js/materialize.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;js/jquery.nicescroll_custom.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;js/jquery.preload.min.js&quot;&gt;&lt;/script&gt;&lt;!-- preload images library --&gt;
+    &lt;!-- &lt;script src=&quot;js/zoom.js&quot;&gt;&lt;/script&gt; --&gt;
+    &lt;script src=&quot;js/highcharts.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;js/variable-pie.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;js/preload-images.js&quot;&gt;&lt;/script&gt;&lt;!-- all images need to load first --&gt;
+    
+    &lt;script src=&quot;data/data.js&quot;&gt;&lt;/script&gt;&lt;!-- input data --&gt;
+    &lt;script src=&quot;js/jquery.ba-hashchange.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;js/custom.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;quiz/quiz.js&quot;&gt;&lt;/script&gt;&lt;!-- all images need to load first --&gt;
+&lt;/body&gt;
+   
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">connect.sid=s%3AZhVih4L687x3cLKOutNBQY26miNE68p-.fuRw5CQEx9qJJk%2BqkR6RFBML%2FLKBkqXj1QcF1ptl5bU</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://middleware.onelern.school/v4/books/616064e79e1fe601b5ee7677/assets/622896ddbbbe6cd15a107ca7/index.html</java.net.URL>
+</httpSample>
+<httpSample t="283" it="0" lt="282" ct="205" ts="1661499579775" s="true" lb="/global-events/63087813dda959043c7de3b5-16" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1296" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:41 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Type: application/json; charset=utf-8
+X-Powered-By: Strapi &lt;strapi.io&gt;
+X-Response-Time: 29ms
+Content-Length: 885
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU3ODMzZDg3ZTViNzczYjVlNmQ4MSIsImlhdCI6MTY2MTQ5NjUyOSwiZXhwIjoxNjY0MDg4NTI5fQ.QJ2BzHTp2JoKr9qV4z0ePethoIaIBy2xI0E0s4zwM7Y
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaapi.onelern.school
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 65
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;_id&quot;:&quot;63087813dda959043c7de3b5&quot;,&quot;type&quot;:&quot;SelectedChapter&quot;,&quot;datetime&quot;:&quot;2022-08-26T07:36:50.036Z&quot;,&quot;user_id&quot;:&quot;624e7833d87e5b773b5e6d81&quot;,&quot;user_name&quot;:&quot;1649309747-1&quot;,&quot;role&quot;:&quot;student&quot;,&quot;is_offline&quot;:true,&quot;first_name&quot;:&quot;Suchir&quot;,&quot;last_name&quot;:&quot;Priyabroto&quot;,&quot;onelern_id&quot;:&quot;OLFT-00001&quot;,&quot;institution&quot;:&quot;624d5851d87e5b773b5e6cbf&quot;,&quot;center&quot;:&quot;624d5931d87e5b773b5e6cc2&quot;,&quot;grade&quot;:&quot;624d593bd87e5b773b5e6cc6&quot;,&quot;section&quot;:&quot;624d5971d87e5b773b5e6ccb&quot;,&quot;start&quot;:&quot;2022-08-26T07:36:50.077Z&quot;,&quot;end&quot;:&quot;2022-08-26T07:39:39.015Z&quot;,&quot;data&quot;:{&quot;bookId&quot;:&quot;616064e79e1fe601b5ee7677&quot;,&quot;version&quot;:&quot;v4&quot;,&quot;subject&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;chapter&quot;:&quot;6221cbf384ee0b02a94628fe&quot;,&quot;form&quot;:&quot;610e1a6f7677146fdd8a2831&quot;,&quot;curriculum&quot;:&quot;610e1a657677146fdd8a2830&quot;},&quot;published_at&quot;:&quot;2022-08-26T07:36:51.752Z&quot;,&quot;createdAt&quot;:&quot;2022-08-26T07:36:51.754Z&quot;,&quot;updatedAt&quot;:&quot;2022-08-26T07:39:41.592Z&quot;,&quot;__v&quot;:0,&quot;timespent&quot;:2.8156333333333334,&quot;id&quot;:&quot;63087813dda959043c7de3b5&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&quot;end&quot;:&quot;2022-08-26T07:39:39.015Z&quot;,&quot;timespent&quot;:2.8156333333333334}</queryString>
+  <java.net.URL>https://qaapi.onelern.school/global-events/63087813dda959043c7de3b5</java.net.URL>
+</httpSample>
+<httpSample t="694" it="0" lt="471" ct="296" ts="1661499581781" s="true" lb="/v4/books/616064e79e1fe601b5ee7677/assets/622896ddbbbe6cd15a107ca7/fonts/Inter-UI-Bold.woff2-39" rc="200" rm="OK" tn="" dt="" de="" by="174040" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:43 GMT
+Server: Apache/2.4.29 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Connection: close
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://middleware.onelern.school/v4/books/616064e79e1fe601b5ee7677/assets/622896ddbbbe6cd15a107ca7/css/style.css
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Origin: https://middleware.onelern.school
+Accept: */*
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: middleware.onelern.school
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: font
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">connect.sid=s%3AZhVih4L687x3cLKOutNBQY26miNE68p-.fuRw5CQEx9qJJk%2BqkR6RFBML%2FLKBkqXj1QcF1ptl5bU</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://middleware.onelern.school/v4/books/616064e79e1fe601b5ee7677/assets/622896ddbbbe6cd15a107ca7/fonts/Inter-UI-Bold.woff2</java.net.URL>
+</httpSample>
+<httpSample t="585" it="0" lt="350" ct="189" ts="1661499582146" s="true" lb="/v4/books/616064e79e1fe601b5ee7677/assets/622896ddbbbe6cd15a107ca7/fonts/Inter-UI-Regular.woff2-42" rc="200" rm="OK" tn="" dt="" de="" by="160623" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:44 GMT
+Server: Apache/2.4.29 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Connection: close
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://middleware.onelern.school/v4/books/616064e79e1fe601b5ee7677/assets/622896ddbbbe6cd15a107ca7/css/style.css
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Origin: https://middleware.onelern.school
+Accept: */*
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: middleware.onelern.school
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: font
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">connect.sid=s%3AZhVih4L687x3cLKOutNBQY26miNE68p-.fuRw5CQEx9qJJk%2BqkR6RFBML%2FLKBkqXj1QcF1ptl5bU</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://middleware.onelern.school/v4/books/616064e79e1fe601b5ee7677/assets/622896ddbbbe6cd15a107ca7/fonts/Inter-UI-Regular.woff2</java.net.URL>
+</httpSample>
+<httpSample t="665" it="0" lt="428" ct="218" ts="1661499582063" s="true" lb="/v4/books/616064e79e1fe601b5ee7677/assets/622896ddbbbe6cd15a107ca7/fonts/Inter-UI-Medium.woff2-40" rc="200" rm="OK" tn="" dt="" de="" by="172639" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:39:43 GMT
+Server: Apache/2.4.29 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Connection: close
+Transfer-Encoding: chunked
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://middleware.onelern.school/v4/books/616064e79e1fe601b5ee7677/assets/622896ddbbbe6cd15a107ca7/css/style.css
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Origin: https://middleware.onelern.school
+Accept: */*
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: middleware.onelern.school
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: font
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">connect.sid=s%3AZhVih4L687x3cLKOutNBQY26miNE68p-.fuRw5CQEx9qJJk%2BqkR6RFBML%2FLKBkqXj1QcF1ptl5bU</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://middleware.onelern.school/v4/books/616064e79e1fe601b5ee7677/assets/622896ddbbbe6cd15a107ca7/fonts/Inter-UI-Medium.woff2</java.net.URL>
+</httpSample>
+<httpSample t="976" it="0" lt="976" ct="513" ts="1661499591777" s="true" lb="/v1/me/reportmyactivity/-55" rc="200" rm="OK" tn="" dt="" de="" by="372" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Vary: Origin
+Server: Microsoft-HTTPAPI/2.0
+x-ms-correlation-id: 09dd404c-5c47-4909-8359-82ee41872d08
+Access-Control-Expose-Headers: Location,Content-Length,x-ms-correlation-id
+Access-Control-Allow-Origin: https://teams.microsoft.com
+Access-Control-Allow-Credentials: true
+Date: Fri, 26 Aug 2022 07:39:54 GMT
+Connection: close
+Content-Length: 0
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://teams.microsoft.com/
+Sec-Fetch-Site: same-site
+Origin: https://teams.microsoft.com
+x-ms-user-type: null
+x-ms-session-id: 2c5d8977-d62e-41a6-70e3-ee359612dbcc
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6IjNCWVE5M3N3X1VTZGtiSERpZlJjVTRiWkRKaDhiQW8tT0FYVU1OSUZtV28iLCJhbGciOiJSUzI1NiIsIng1dCI6IjJaUXBKM1VwYmpBWVhZR2FYRUpsOGxWMFRPSSIsImtpZCI6IjJaUXBKM1VwYmpBWVhZR2FYRUpsOGxWMFRPSSJ9.eyJhdWQiOiJodHRwczovL3ByZXNlbmNlLnRlYW1zLm1pY3Jvc29mdC5jb20vIiwiaXNzIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvYWIyOGVmOTAtZmZjZS00Zjk4LTlhYzYtOTIyMGY3NWVkOGYxLyIsImlhdCI6MTY2MTQ5NTMyOCwibmJmIjoxNjYxNDk1MzI4LCJleHAiOjE2NjE1Nzc3OTAsImFjciI6IjEiLCJhaW8iOiJBVFFBeS84VEFBQUFsWjEwcG11a0RJS2ZWY2pHRWNBMUd5V0N4SDkyTUJQVUl4djBtZDMzcXZyZENXZ1g5cFJQeCtwR0hDYi9hSVVQIiwiYW1yIjpbInB3ZCJdLCJhcHBpZCI6IjVlM2NlNmMwLTJiMWYtNDI4NS04ZDRiLTc1ZWU3ODc4NzM0NiIsImFwcGlkYWNyIjoiMCIsImZhbWlseV9uYW1lIjoiZnJ1Z2FsLnRlc3RpbmciLCJpcGFkZHIiOiI0OS4yMDUuMTE1LjE1IiwibmFtZSI6IkVYVF9mcnVnYWwudGVzdGluZyIsIm9pZCI6IjNhMDAwMzQ2LTJmMDctNGI2MS04NjBmLWI4NmIwOGVkYmY4YSIsInB1aWQiOiIxMDAzMjAwMjIwMDFCRkI2IiwicmgiOiIwLkFVa0FrTzhvcTg3X21FLWF4cElnOTE3WThTZk5jQjRIUjRsRmpzV2IwZ3hIS2taSkFQay4iLCJzY3AiOiJ1c2VyX2ltcGVyc29uYXRpb24iLCJzdWIiOiJiNEYyN2ZpaExESEVveGNubWlZc1pCR0ZmS2FHMWY4OWNQNFhxRjhRdFFrIiwidGlkIjoiYWIyOGVmOTAtZmZjZS00Zjk4LTlhYzYtOTIyMGY3NWVkOGYxIiwidW5pcXVlX25hbWUiOiJFWFRfZnJ1Z2FsLnRlc3RpbmdAZm9ydHVuYXBpeC5jb20iLCJ1cG4iOiJFWFRfZnJ1Z2FsLnRlc3RpbmdAZm9ydHVuYXBpeC5jb20iLCJ1dGkiOiIxekJETXRIQjgwaUlHSWtlUUZZUkFBIiwidmVyIjoiMS4wIiwieG1zX2NjIjpbIkNQMSJdLCJ4bXNfc3NtIjoiMSJ9.cu9pCmHkNzyFYHhh1QzLvaAzlSceW4wXIuZTQIgWr_Jall3za95nsbbpfe0IxK7EMS6rN0aTTJndr_kSUeLF3ahtLxKoUpyC1eeplbOLNCz_eA990jemV9TSk-lna8NtJZTl9myWmJxG5x2HP3lSVN25tAPx5OX0Cbr9aQBa7wbFIrHCIQimOKI-AeUKC44MvQ714U39dtViiJ8ag1y4fucqTDIx8phac-o0fDuLD6p7YQl-MeZLfbjZwiBfhL7G3pXurbkHJFuilenykDOEYcc_gahNNev6PAsj8Yl4f4DTjmsjAfMYNB78gujY9wPhgOpIeaDdnTsWm1USWveCpw
+x-ms-client-type: web
+sec-ch-ua-mobile: ?0
+x-ms-correlation-id: 09dd404c-5c47-4909-8359-82ee41872d08
+Host: presence.teams.microsoft.com
+x-ms-client-env: pds-prod-azsc-asse-01
+Content-Type: application/json
+x-ms-scenario-id: 659
+Sec-Fetch-Mode: cors
+BehaviorOverride: redirectAs404
+x-ms-endpoint-id: 11322a4e-7dbf-4d60-8e25-9417ad91c257
+x-ms-client-version: 1415/1.0.0.2022080828
+Accept-Language: en-US,en;q=0.9
+Accept: json
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-platform: &quot;Windows&quot;
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 70
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;endpointId&quot;:&quot;11322a4e-7dbf-4d60-8e25-9417ad91c257&quot;,&quot;isActive&quot;:false}</queryString>
+  <java.net.URL>https://presence.teams.microsoft.com/v1/me/reportmyactivity/</java.net.URL>
+</httpSample>
+<httpSample t="263" it="0" lt="262" ct="200" ts="1661499599001" s="true" lb="/-60" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1807" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:40:00 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Vary: Origin,Accept-Encoding
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Strapi &lt;strapi.io&gt;
+X-Response-Time: 10ms
+Connection: close
+Content-Length: 1362
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaapi.onelern.school
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+    &lt;title&gt;Welcome to your Strapi app&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+    &lt;meta name=&quot;robots&quot; content=&quot;noindex, nofollow&quot;&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;link href=&quot;https://fonts.googleapis.com/css?family=Lato:400,700&amp;display=swap&quot; rel=&quot;stylesheet&quot; /&gt;
+    &lt;style&gt;
+      *{-webkit-box-sizing:border-box;text-decoration:none}body,html{margin:0;padding:0;font-size:62.5%;-webkit-font-smoothing:antialiased}body{font-size:1.3rem;font-family:Lato,Helvetica,Arial,Verdana,sans-serif;background:#fafafb;margin:0;padding:80px 0;color:#333740;line-height:1.8rem}strong{font-weight:700}.wrapper{width:684px;margin:auto}h1{text-align:center}h2{font-size:1.8rem;font-weight:700;margin-bottom:1px}.logo{height:40px;margin-bottom:74px}.informations{position:relative;overflow:hidden;display:flex;justify-content:space-between;width:100%;height:126px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.informations:before{position:absolute;top:0;left:0;content:&apos;&apos;;display:block;width:100%;height:2px;background:#007eff}.environment{display:inline-block;padding:0 10px;height:20px;margin-bottom:36px;background:#e6f0fb;border:1px solid #aed4fb;border-radius:2px;text-transform:uppercase;color:#007eff;font-size:1.2rem;font-weight:700;line-height:20px;letter-spacing:.05rem}.cta{display:inline-block;height:30px;padding:0 15px;margin-top:32px;border-radius:2px;color:#fff;font-weight:700;line-height:28px}.cta i{position:relative;display:inline-block;height:100%;vertical-align:middle;font-size:1rem;margin-right:20px}.cta i:before{position:absolute;top:8px}.cta-primary{background:#007eff}.cta-secondary{background:#6dbb1a}.text-align-right{text-align:right}.lets-started{position:relative;overflow:hidden;width:100%;height:144px;margin-top:18px;padding:20px 30px;background:#fff;border-radius:2px;box-shadow:0 2px 4px 0 #e3e9f3}.people-saying-hello{position:absolute;right:30px;bottom:-8px;width:113px;height:70px}.visible{opacity:1!important}.people-saying-hello img{position:absolute;max-width:100%;opacity:0;transition:opacity .2s ease-out}@media only screen and (max-width:768px){.wrapper{width:auto!important;margin:0 20px}.informations{flex-direction:column;height:auto}.environment{width:100%;text-align:center;margin-bottom:18px}.text-align-right{margin-top:18px;text-align:center}.cta{width:100%;text-align:center}.lets-started{height:auto}.people-saying-hello{display:none}}
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body lang=&quot;en&quot;&gt;
+    &lt;section class=&quot;wrapper&quot;&gt;
+      &lt;h1&gt;&lt;img class=&quot;logo&quot; src=&quot;/assets/images/logo_login.png&quot; /&gt;&lt;/h1&gt;
+      
+        &lt;div class=&quot;informations&quot;&gt;
+          &lt;div&gt;
+            &lt;span class=&quot;environment&quot;&gt;production&lt;/span&gt;
+            &lt;p&gt;The server is running successfully.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;text-align-right&quot;&gt;
+            &lt;p&gt;Fri, 26 Aug 2022 07:40:00 GMT&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      
+    &lt;/section&gt;
+
+    
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://qaapi.onelern.school/</java.net.URL>
+</httpSample>
+<httpSample t="238" it="0" lt="237" ct="186" ts="1661499599393" s="true" lb="/api/quizAttempts/attempt-63" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="539" sc="1" ec="0" ng="0" na="0" hn="DESKTOP-41DQOMN">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2022 07:40:01 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: https://test.onelern.school
+Vary: Origin,Accept-Encoding
+Access-Control-Allow-Credentials: true
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=0; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 21
+ETag: W/&quot;15-jXOi8S8R9iwIY/L49oxAuMUoCo0&quot;
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://test.onelern.school/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://test.onelern.school
+Accept: */*
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNGU3ODMzZDg3ZTViNzczYjVlNmQ4MSIsImlhdCI6MTY2MTQ5NjUyOSwiZXhwIjoxNjY0MDg4NTI5fQ.QJ2BzHTp2JoKr9qV4z0ePethoIaIBy2xI0E0s4zwM7Y
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;104&quot;, &quot; Not A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;104&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: qaanalytics.onelern.school
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 1779
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;results&quot;:&quot;Success&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;quiz_data&quot;:[{&quot;asset_guid&quot;:&quot;622896ddbbbe6cd15a107ca7&quot;,&quot;created_at&quot;:1661499598969,&quot;class_id&quot;:&quot;624d593bd87e5b773b5e6cc6&quot;,&quot;section_id&quot;:&quot;624d5971d87e5b773b5e6ccb&quot;,&quot;institution_id&quot;:&quot;624d5851d87e5b773b5e6cbf&quot;,&quot;center_id&quot;:&quot;624d5931d87e5b773b5e6cc2&quot;,&quot;username&quot;:&quot;Suchir Priyabroto&quot;,&quot;user_id&quot;:&quot;624e7833d87e5b773b5e6d81&quot;,&quot;result&quot;:{&quot;custom_data&quot;:&quot;&quot;,&quot;attempt&quot;:[{&quot;id&quot;:&quot;6222237f9844ef396391e851&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Easy&quot;,&quot;blooms&quot;:&quot;Understanding&quot;,&quot;attempted&quot;:true,&quot;correct&quot;:false,&quot;timeSpent&quot;:4.6,&quot;thinkTime&quot;:[{&quot;id&quot;:&quot;D&quot;,&quot;time&quot;:2}]},{&quot;id&quot;:&quot;6222237f9844ef396391e852&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Easy&quot;,&quot;blooms&quot;:&quot;Remembering&quot;,&quot;attempted&quot;:true,&quot;correct&quot;:false,&quot;timeSpent&quot;:3,&quot;thinkTime&quot;:[{&quot;id&quot;:&quot;B&quot;,&quot;time&quot;:1.4}]},{&quot;id&quot;:&quot;6222237f9844ef396391e853&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Hard&quot;,&quot;blooms&quot;:&quot;Analysing&quot;,&quot;attempted&quot;:true,&quot;correct&quot;:false,&quot;timeSpent&quot;:2.5,&quot;thinkTime&quot;:[{&quot;id&quot;:&quot;D&quot;,&quot;time&quot;:1}]},{&quot;id&quot;:&quot;6222237f9844ef396391e854&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Medium&quot;,&quot;blooms&quot;:&quot;Analysing&quot;,&quot;attempted&quot;:true,&quot;correct&quot;:true,&quot;timeSpent&quot;:3.9000000000000004,&quot;thinkTime&quot;:[{&quot;id&quot;:&quot;C&quot;,&quot;time&quot;:1.2}]},{&quot;id&quot;:&quot;6222237f9844ef396391e855&quot;,&quot;chapter&quot;:&quot;recall what happened in the story&quot;,&quot;difficulty&quot;:&quot;Easy&quot;,&quot;blooms&quot;:&quot;Understanding&quot;,&quot;attempted&quot;:true,&quot;correct&quot;:false,&quot;timeSpent&quot;:2.5,&quot;thinkTime&quot;:[{&quot;id&quot;:&quot;C&quot;,&quot;time&quot;:1.3}]}],&quot;evaluated_score&quot;:&quot;&quot;,&quot;info&quot;:{&quot;attemptedQuestions&quot;:5,&quot;correctedQuestions&quot;:1,&quot;noOfQuestions&quot;:5},&quot;evaluatedScore&quot;:1},&quot;quizType&quot;:&quot;eosq&quot;,&quot;chapterSectionId&quot;:&quot;6221cbf384ee0b02a94628ff&quot;,&quot;chapterId&quot;:&quot;6221cbf384ee0b02a94628fe&quot;,&quot;subjectId&quot;:&quot;6160632f9e1fe601b5ee7673&quot;,&quot;subjectTitle&quot;:&quot;English&quot;,&quot;curriculumId&quot;:&quot;610e1a657677146fdd8a2830&quot;,&quot;curriculumTitle&quot;:&quot;Central Board Secondary Education&quot;}]}</queryString>
+  <java.net.URL>https://qaanalytics.onelern.school/api/quizAttempts/attempt</java.net.URL>
+</httpSample>
+
 </testResults>
